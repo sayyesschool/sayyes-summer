@@ -1,0 +1,9 @@
+{
+  "name": "sayyes-kids",
+  "version": "1.0.0",
+  "private": true,
+  "main": "gulpfile.js",
+  "scripts": {
+    "server": "php -S localhost:8000"
+  }
+}
