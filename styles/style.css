@@ -1102,7 +1102,7 @@ html {
     transform: translateY(-50%);
     width: 19px;
     height: 19px;
-    background: url('../images/tooltip-min.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/tooltip-min.svg') no-repeat center;
     background-size: contain;
 }
 
@@ -1293,7 +1293,7 @@ html {
     transform: translateY(-50%);
     width: 18px;
     height: 13px;
-    background: url('../images/email-icon.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/email-icon.svg') no-repeat center;
 }
 
 .adress-info {
@@ -1310,7 +1310,7 @@ html {
     transform: translateY(-50%);
     width: 14px;
     height: 18px;
-    background: url('../images/placeholder.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/placeholder.svg') no-repeat center;
 }
 
 .footer__title {
@@ -1459,7 +1459,7 @@ html {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background: url('../images/phone-icon.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/phone-icon.svg') no-repeat center;
 }
 
 .whatsup-link {
@@ -1484,7 +1484,7 @@ html {
     top: 50%;
     left: 18px;
     transform: translateY(-50%);
-    background: url('../images/whatsapp-color.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/whatsapp-color.svg') no-repeat center;
 }
 
 .subscription-social {
@@ -1514,12 +1514,12 @@ html {
 }
 
 .subscription-social_inst:after {
-    background: url('../images/inst-icon.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/inst-icon.svg') no-repeat center;
     background-size: contain;
 }
 
 .subscription-social_facebook:after {
-    background: url('../images/facebook-icon.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/facebook-icon.svg') no-repeat center;
     background-size: contain;
 }
 
@@ -2082,13 +2082,13 @@ html {
 }
 
 .swiper-button-next:after {
-    background: url('../images/next.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/next.svg') no-repeat center;
     background-size: contain;
     color: #5a1294;
 }
 
 .swiper-button-prev:after {
-    background: url('../images/prev.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/prev.svg') no-repeat center;
     background-size: contain;
     color: #5a1294;
 }
@@ -2304,7 +2304,7 @@ html {
     transform: translate(-50%, -50%);
     width: 55px;
     height: 55px;
-    background: url('../images/play.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/play.svg') no-repeat center;
     background-size: contain;
 }
 @media (max-width: 1199px) {
@@ -2447,7 +2447,7 @@ html {
     top: -14px;
     width: 212px;
     height: 214px;
-    background: url('../images/line-arrow.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/line-arrow.svg') no-repeat center;
 }
 
 @media (max-width: 1199px) {
@@ -2528,7 +2528,7 @@ html {
     top: -5px;
     width: 28px;
     height: 28px;
-    background: url('../images/close-modal.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/close-modal.svg') no-repeat center;
     background-size: contain;
     border: none;
 }
@@ -2598,7 +2598,7 @@ html {
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    background: url('../images/check.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/check.svg') no-repeat center;
     background-size: contain;
 }
 
@@ -2717,7 +2717,7 @@ html {
     transform: translateX(-50%);
     width: 80px;
     height: 80px;
-    background: url('../images/check-mark.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/check-mark.svg') no-repeat center;
 }
 
 .team-slider__top {
@@ -2763,7 +2763,7 @@ html {
     top: 0;
     width: 19px;
     height: 19px;
-    background: url('../images/tooltip-icon-w.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/tooltip-icon-w.svg') no-repeat center;
 }
 
 .text-show-w {
@@ -2824,7 +2824,7 @@ html {
     transform: translateY(-50%);
     width: 142px;
     height: 141px;
-    background: url('../images/line-arrow-r.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/images/line-arrow-r.svg') no-repeat center;
 }
 
 .team-tabs {

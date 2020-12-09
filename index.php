@@ -1,8 +1,7 @@
 <?php
 function get_image($name)
 {
-    return 'https://sayyes-kids.local/images/' . $name;
-    // return 'https://static.sayes.ru/images/kids/' . $name;
+    return 'https://static.sayes.ru/images/kids/' . $name;
 }
 function role_image()
 {
