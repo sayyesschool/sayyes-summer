@@ -7,6 +7,9 @@
     --color-yellow: #ffe947;
     --color-violet: #5a1294;
 }
+* {
+    outline: none;
+}
 /********************************/
 html {
     font-family: 'Nunito', sans-serif;
@@ -193,6 +196,8 @@ html {
     height: 180px;
 }
 .header-main-container {
+    position: relative;
+    z-index: 1;
     padding: 0 30px;
 }
 .header-main {
@@ -2682,7 +2687,10 @@ html {
     margin-bottom: 64px;
     background: linear-gradient(103.82deg, #833cc0 18.46%, #904bcc 50.69%, #a944ff 71.71%, #b36cef 92.86%);
 }
-
+.ourteam-container {
+    position: relative;
+    z-index: 1;
+}
 .ourteam__sub-title {
     margin-bottom: 14px;
 }

@@ -134,7 +134,7 @@ function role_image()
     </style>
     <div class="section-second">
         <div class="container">
-            <form class="form-main">
+            <form class="form-main js-form">
                 <h2 class="h2 form-main-header">Узнайте уровень английского у вашего ребенка на пробном бесплатном уроке, а также</h2>
                 <ul class="r-list">
                     <li>
@@ -168,7 +168,7 @@ function role_image()
                         <input type="tel" class="input" placeholder="Телефон" name="phone">
                     </div>
                     <div class="form-main-col _has_button">
-                        <button class="r-button button-accent button-form">
+                        <button type="submit" class="r-button button-accent button-form">
                             <span>Записаться на бесплатный урок</span>
                         </button>
                     </div>
@@ -252,7 +252,7 @@ function role_image()
                 <div class="comfort-info-footer">
                     <div class="comfort-info-row">
                         <div class="comfort-info-col">
-                            <button class="r-button button-accent button-form" type="button">Записаться на бесплатный урок</button>
+                            <button class="r-button button-accent button-form js-button" type="button">Записаться на бесплатный урок</button>
                         </div>
                         <div class="comfort-info-col">
                             <p class="comfort-message">
@@ -269,7 +269,7 @@ function role_image()
                 <div class="video-block">
                     <img src="<?= get_image('video-comfort.jpg') ?>" <?= role_image() ?> alt="">
                 </div>
-                <button class="r-button button-accent button-form" type="button">Записаться на бесплатный урок</button>
+                <button class="r-button button-accent button-form js-button" type="button">Записаться на бесплатный урок</button>
             </div>
         </div>
     </div>
@@ -310,7 +310,7 @@ function role_image()
                             <li>Может составлять простые предложения</li>
                             <li>Знает более 100 новых слов и выражений</li>
                         </ul>
-                        <button class="r-button button-accent programs-content__btn">Записаться на бесплатный урок</button>
+                        <button type="button" class="r-button button-accent programs-content__btn js-button">Записаться на бесплатный урок</button>
                     </div>
                 </div>
                 <div class="programs-content__item" id="tab2">
@@ -337,7 +337,7 @@ function role_image()
                             <li>Сочиняет и рассказывает истории</li>
                             <li>Получает высокий балл на школьных экзаменах</li>
                         </ul>
-                        <button class="r-button button-accent programs-content__btn">Записаться на бесплатный урок</button>
+                        <button type="button" class="r-button button-accent programs-content__btn js-button">Записаться на бесплатный урок</button>
                     </div>
                 </div>
                 <div class="programs-content__item" id="tab3">
@@ -364,7 +364,7 @@ function role_image()
                             <li>Может читать неадаптированную литературу</li>
                             <li>Получает высокий балл на выпускном экзамене</li>
                         </ul>
-                        <button class="r-button button-accent programs-content__btn">Записаться на бесплатный урок</button>
+                        <button type="button" class="r-button button-accent programs-content__btn js-button">Записаться на бесплатный урок</button>
                     </div>
                 </div>
             </div>
@@ -377,7 +377,7 @@ function role_image()
     </style>
     <div class="ourteam">
         <div class="section-bg _ourteam"></div>
-        <div class="container">
+        <div class="container ourteam-container">
             <div class="cont-subtitle ourteam__sub-title semibold">
                 В зависимости от возраста и уровня ребенка, вы можете выбрать
             </div>
@@ -615,7 +615,7 @@ function role_image()
                 </div>
             </div>
             <div class="advantages__bottom">
-                <button class="r-button button-accent adv-btn">Записаться на бесплатный урок</button>
+                <button type="button" class="r-button button-accent adv-btn js-button">Записаться на бесплатный урок</button>
             </div>
         </div>
     </div>
@@ -765,13 +765,13 @@ function role_image()
                     <div class="price-section-card-header">25 минут</div>
                     <div class="price-section-card-subheader">рекомендуем от 5 лет</div>
                     <div class="price-section-card-price">от 500 руб/занятие</div>
-                    <button class="r-button button-accent button-form" type="button">Записаться</button>
+                    <button class="r-button button-accent button-form js-button" type="button">Записаться</button>
                 </li>
                 <li class="price-section-card">
                     <div class="price-section-card-header">50 минут</div>
                     <div class="price-section-card-subheader">рекомендуем от 7 лет</div>
                     <div class="price-section-card-price">от 815 руб/занятие</div>
-                    <button class="r-button button-accent button-form" type="button">Записаться</button>
+                    <button class="r-button button-accent button-form js-button" type="button">Записаться</button>
                 </li>
             </ul>
         </div>
@@ -893,7 +893,7 @@ function role_image()
 
     <div class="form-section">
         <div class="container">
-            <form class="form-main">
+            <form class="form-main js-form">
                 <h2 class="h2 form-main-header">Узнайте уровень английского у вашего ребенка на пробном бесплатном уроке, а также</h2>
                 <ul class="r-list">
                     <li>
@@ -928,7 +928,7 @@ function role_image()
                         <input type="tel" class="input" placeholder="Телефон" name="phone">
                     </div>
                     <div class="form-main-col _has_button">
-                        <button class="r-button button-accent button-form">
+                        <button type="submit" class="r-button button-accent button-form">
                             <span>Записаться на бесплатный урок</span>
                         </button>
                     </div>
@@ -1044,7 +1044,7 @@ function role_image()
     <div id="js-modal-form" class="modal-container">
         <div class="modal-wrapper">
             <div class="modal modal_loan">
-                <form class="modal__inner form-loan" action="#">
+                <form class="modal__inner form-loan js-form">
                     <button id="js-close-modal-form" class="modal-close" type="button"></button>
                     <div class="modal__title bold">Оставьте заявку</div>
                     <div class="modal__article">
@@ -1052,10 +1052,10 @@ function role_image()
                     </div>
                     <ul class="r-list modal__list">
                         <li>
-                            <input class="inp" type="text" placeholder="Имя">
+                            <input class="inp" type="text" placeholder="Имя" name="name">
                         </li>
                         <li>
-                            <input class="inp" type="tel" placeholder="Телефон">
+                            <input class="inp" type="tel" placeholder="Телефон" name="phone">
                         </li>
                         <li>
                             <button class="form-loan__btn button-accent r-button" type="submit">Записаться на бесплатный урок</button>
@@ -1095,8 +1095,6 @@ function role_image()
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script src="/js/scripts.js"></script>
-
     <script src="https://static.sayes.ru/js/crm.js"></script>
     <script src="https://static.sayes.ru/js/masked-input.js"></script>
 
@@ -1109,10 +1107,17 @@ function role_image()
             form.addEventListener('submit', function(event) {
                 event.preventDefault();
 
+                var name = this.elements.name.value;
+                var phone = this.elements.phone.value;
+
+                if (!name || !phone) {
+                    return false;
+                }
+
                 var data = {
                     type: 'Заявка на пробный урок',
-                    name: this.elements.name.value,
-                    phone: this.elements.phone.value
+                    name: name,
+                    phone: phone,
                 };
 
                 ym(YANDEX_METRIKA_COUNTER, 'reachGoal', 'zayavka');
@@ -1141,6 +1146,121 @@ function role_image()
             fbq('track', 'InitiateCheckout');
 
             return true;
+        });
+
+        /******************************************* */
+
+        $('.programs-tabs .programs-tabs__item').click(function() {
+            $('.programs-tabs__item').removeClass('is-active');
+            $(this).addClass('is-active');
+            var tab = $(this).attr('data-tab');
+            $('.programs-content__item').not(tab).css({
+                display: 'none'
+            });
+            $(tab).fadeIn(400);
+        });
+        $('.programs-tabs .programs-tabs__item:first-child').click();
+
+        function teamTabMobile() {
+            $('.team-tabs .team-tabs__btn').click(function() {
+                $('.team-tabs__btn').removeClass('is-active');
+                $(this).addClass('is-active');
+                var tab = $(this).attr('data-tab');
+                $('.teamtab').not(tab).css({
+                    display: 'none'
+                });
+                $(tab).fadeIn(400);
+            });
+            $('.team-tabs li:first-child .team-tabs__btn').click();
+        }
+
+        var revSlider = new Swiper('.reviews-slider', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            navigation: {
+                nextEl: '.reviews-slider-next',
+                prevEl: '.reviews-slider-prev',
+            },
+        });
+
+        var revFullSlider = new Swiper('.revfull-slider', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            navigation: {
+                nextEl: '.revfull-slider-next',
+                prevEl: '.revfull-slider-prev',
+            },
+            breakpoints: {
+                701: {
+                    slidesPerView: 2,
+                },
+            },
+        });
+
+        var teamSlider = undefined;
+
+        function initSwiper() {
+            var screenWidth = $(window).width();
+            if (screenWidth > 700 && teamSlider == undefined) {
+                console.log(teamSlider);
+                if (typeof teamSlider !== 'undefined') {
+                    teamSlider.destroy();
+                }
+                teamSlider = new Swiper('.team-slider', {
+                    slidesPerView: 1,
+                    spaceBetween: 50,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    breakpoints: {
+                        1200: {
+                            spaceBetween: 140,
+                        },
+                    },
+                });
+            } else if (screenWidth < 701) {
+                if (typeof teamSlider !== 'undefined') {
+                    teamSlider.destroy();
+                }
+                // teamSlider = undefined;
+                teamTabMobile();
+            }
+        }
+        initSwiper();
+        $(window).on('resize', initSwiper);
+
+        $('.text-show').click(function() {
+            var $this = $(this);
+            $this.toggleClass('is-active');
+            $this.parents('.text-hidden').find('p').toggleClass('is-active');
+            if ($this.hasClass('is-active')) {
+                $this.html('Свернуть');
+            } else {
+                $this.html('Развернуть');
+            }
+        });
+
+        var $modalForm = $('#js-modal-form');
+        var $modalSuccess = $('#js-modal-success');
+
+        $('.js-button').on('click', function() {
+            console.log(1)
+            $modalForm.fadeIn();
+        });
+        $('.js-button').on('click', function() {
+            console.log(2)
+            $modalForm.fadeIn();
+        });
+
+        $('#js-close-modal-form').on('click', function() {
+            $modalForm.fadeOut();
+        });
+        $('#js-close-modal-success').on('click', function() {
+            $modalSuccess.fadeOut();
         });
     </script>
 </body>
