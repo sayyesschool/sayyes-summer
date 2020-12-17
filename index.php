@@ -33,6 +33,7 @@ function role_image()
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -48,10 +49,7 @@ function role_image()
     </style>
 </head>
 
-
-
 <body class="page">
-
     <style>
         .section-first-bg {
             background-image: url('<?= get_image('container-first-bg.png') ?>');
@@ -61,7 +59,6 @@ function role_image()
             background-image: url('<?= get_image('wave-1.png') ?>');
         }
     </style>
-    <!-- <div class="container" style="height: 200px; background-color: #333;"></div> -->
     <div class="section-first">
         <div class="section-first-bg"></div>
         <div class="section-first-wave"></div>
@@ -651,85 +648,168 @@ function role_image()
             <div class="swiper-button-next reviews-slider-next"></div>
             <div class="swiper-button-prev reviews-slider-prev"></div>
         </div>
+        <?php
+        $reviews = [
+            //             [
+            //                 'header' => 'Ольга',
+            //                 'foto' => get_image('rev-photo.png'),
+            //                 'subheader' => 'Мама ученицы Кати, 10лет',
+            //                 'profile' => '',
+            //                 'text' => 'Всем привет! Моя дочь Катюша в 4 классе, где-то полгода назад мы начали заниматься
+            // в языковой школе Say Yes. Изначально я относилась немного скептически к идее
+            // изучения английского по скайпу, потому что удержать внимание ребенка довольно
+            // сложно, особенно через монитор компьютера. Но пока что все удается, Катюша
+            // занимается с удовольствием - за что отдельное спасибо нашему преподавателю
+            // Наталье Курселевой, а самое главное - ребенок заговорил. Я вижу, что она не боится
+            // совершать ошибок, и формировать фразы у нее получается довольно легко и
+            // непринужденно. И в целом очень прикольно наблюдать, как твой ребенок начинает
+            // болтать по-английски:) Поэтому я очень довольна результатом, всем рекомендую
+            // языковую школу Say Yes!',
+            //                 'video_link' => 'https://youtu.be/HVXOMGVgHfQ',
+            //                 'video_preview' => 'http://i3.ytimg.com/vi/HVXOMGVgHfQ/hqdefault.jpg',
+            //             ],
+            [
+                'header' => 'Ольга',
+                'foto' => get_image('inst2.jpg'),
+                'subheader' => 'Мама ученика Степы, 6 лет',
+                'profile' => 'https://www.instagram.com/olia_pi/',
+                'text' => 'Всем привет! Меня зовут Оля, а это мой сын Стёпа, он занимается английском по скайп в
+школе SAY YES уже четвёртый месяц.
+Благодаря интересным занятиям, Стёпа с лёгкостью выдерживает занятия по 50 минут два раза
+в неделю и уже прошёл целый учебник!
+На занятиях Стёпа учится в первую очередь говорить на английском, это было моё основное
+пожелание к занятиям. Но также, наш преподаватель Полина уделяет время чтению и письму
+на английском.
+Результат вижу в процессе выполнения домашнего задания - Стёпа делает всё быстро,
+запомнил много новых слов, стал понимать английский на слух. А ещё я заметила, что он стал
+чаще узнавать слова в песнях на английском)
+Конечно, говорить ему пока сложновато, но мы точно движемся в правильном направлении!',
+                'video_link' => 'https://youtu.be/WaAVxYmBCBA',
+                'video_preview' => 'http://i3.ytimg.com/vi/WaAVxYmBCBA/hqdefault.jpg',
+            ],
+            [
+                'header' => 'Ксения',
+                'foto' => get_image('inst3.jpg'),
+                'subheader' => 'Мама учеников Льва, 10 лет и Ланы, 5 лет',
+                'profile' => 'https://www.instagram.com/p/B9MMZ-hILEh/?igshid=c1xjyk7c1yei',
+                'text' => 'В школе Say Yes у меня учатся двое детей. Первопроходцем был десятилетний сын.Я долго выбирала для него курсы. Главной задачей было – заинтересовать ребёнка,
+так как он испытывал сильную антипатию к языку. При слове «английский» сын
+заявлял, что готов работать дворником, лишь бы не учить ненавистный ему
+предмет.
+Перепробовав много мест, решила взять пробный урок в Say Yes.
+Меня впечатлило, что перед первым занятием менеджеры очень подробно
+расспрашивали про увлечения сына и его жизнь. Все полученные данные передали
+учителю – Полине, которая настолько сумела увлечь сына за пробные 30 минут, что
+после него мой непоседливый ребёнок заявил о желании учиться и даже выполнять
+домашние задания! А уже через пару уроков он стал употреблять английские слова в
+обиходе.
+Конечно, такой успех у брата не прошёл мимо моей пятилетней дочки. Теперь и она
+с удовольствием познаёт азы английского языка вместе с нашей замечательной
+Полиной Орликовой!',
+                'video_link' => 'https://youtu.be/voQ5bweTHwU',
+                'video_preview' => 'http://i3.ytimg.com/vi/voQ5bweTHwU/hqdefault.jpg',
+            ],
+            [
+                'header' => 'Ирина',
+                'foto' => get_image('inst4.jpg'),
+                'subheader' => 'Мама ученицы Маши, 12 лет',
+                'profile' => 'https://www.instagram.com/ir.parshina/?igshid=ibabxlgtyc6r',
+                'text' => 'Меня зовут Ирина, моя дочь Маша занимается в школе Say Yes. В этом году мы решили
+заняться английским дополнительно, потому что появились проблемы в школе. Я бы рада
+помочь дочери, но к своему стыду я ни слова не знаю по-английски. Огромное спасибо хочу
+сказать нашему преподавателю - Марии Наливайкиной. Я не знаю, как ей это удается, ведь
+возраст сложный, эти барышни в 12 лет со своим внутренним протестом и заниматься не хотят,
+но тем не менее я вижу результат, и что самое главное, Маша сама делает домашнее задание и
+даже с удовольствием, и в школе стало все получаться. Спасибо огромное школе Say Yes!',
+                'video_link' => 'https://youtu.be/thqTEQRgSjg',
+                'video_preview' => 'http://i3.ytimg.com/vi/thqTEQRgSjg/hqdefault.jpg',
+            ],
+            [
+                'header' => 'Екатерина',
+                'foto' => get_image('inst5.jpg'),
+                'subheader' => 'Мама ученицы Софьи, 5лет',
+                'profile' => 'https://www.instagram.com/ekaterina.dzhurinskaya/',
+                'text' => 'Моей дочке Софье 5 лет, и она учится в школе SAY YES по скайпу. Занятия очень
+интерактивные. Это и теория в легкой форме, и игры, и песни, и очень такая
+душевная подача информации. Мы учимся относительно недавно, но успехи уже
+налицо: это и очень легкое запоминание всех конструкций и пополненный
+словарный запас, и это всегда ожидание новых уроков. Как мама я одно могу
+сказать – это дорогого стоит заинтересовать маленького ребенка и держать его
+внимание на протяжении урока. Поэтому я просто огромную благодарность
+высказываю школе SAY YES за их подход индивидуальный и за те знания,
+которые они дают.
+Если вы ищите школу дистанционного обучения для своего ребенка, то я вам очень
+рекомендую обратить внимания на эту школу! Всего вам самого лучшего и
+выбирайте лучших!',
+                'video_link' => 'https://youtu.be/MgGH2raaSZo',
+                'video_preview' => 'http://i3.ytimg.com/vi/MgGH2raaSZo/hqdefault.jpg',
+            ],
+            [
+                'header' => 'Юлия',
+                'foto' => get_image('inst6.jpg'),
+                'subheader' => 'Мама ученка Миши, 7лет',
+                'profile' => 'https://www.instagram.com/shkrediuliia/?igshid=1jovqom392njq',
+                'text' => 'Мы искали онлайн школу английского языка довольно долго. Проходили пробные
+уроки и видели, что ни интереса, ни любопытства у ребенка этот процесс не
+вызывает, скорее напряжение. Подумывала уже отложить эту идею. Случайно в
+ленте новостей увидела рекламу школы Say Yes и оставила заявку.
+Сразу увидела приятное отличие при общении с менеджером. Данное отличие в том,
+что первым делом, прежде чем рассказать, какая крутая школа и почему нужно
+выбрать именно ее, Виктория, уточнила имя сына, чем он увлекается, что ему
+нравится, какие персонажи мультфильмов, комиксов он любит. Такой подход, думаю
+будет эмоционально гораздо более приятен, тем более что цены плюс минус везде
+одинаковые.
+Прошли пробный урок с нашим преподавателем, и сын сразу сказал, что ему
+нравиться Полина (преподаватель). Возможно, еще и потому, что она очень
+симпатичная девушка))
+В уроке очень хорошо использовали те приоритеты, которые выяснили заранее.
+Например, сын сейчас очень любит Микки Мауса.
+Мне тоже сразу отозвалась ее легкая, приятная манера общения, там, где нужно
+артистичная, где нужно спокойная. Я вижу и профессионализм в преподавании
+языка и чуткое искренние отношение к ребенку.
+Мы занимаемся 2 раза в неделю, и сын ждет занятий, что для него не свойственно.
+Ему стало интересно учить язык, новые слова, говорить что-то на английском дома.
+Мы очень рады и благодарим всех причастных к нашему счастливому обучению!',
+                'video_link' => 'https://youtu.be/Avef-4osuMg',
+                'video_preview' => 'http://i3.ytimg.com/vi/Avef-4osuMg/hqdefault.jpg',
+            ],
+        ];
+        ?>
         <div class="revfull-slider-wrap">
             <div class="revfull-slider swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="revfull-slider__item">
-                            <ul class="r-list revfull-slider__top">
-                                <li>
-                                    <div class="revfull-slider__photo">
-                                        <img class="r-size" src="<?= get_image('rev-photo.png') ?>" <?= role_image() ?> alt="">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="revfull-slider__name bold">Екатерина</div>
-                                    <div class="revfull-slider__article">Мама ученицы Софии, 5 лет</div>
-                                    <a class="revfull-slider__link" href="#">
-                                        <span>Профиль в</span>
-                                        <div class="revfull-slider__social-icon">
-                                            <img class="r-size" src="<?= get_image('inst-min.svg') ?>" <?= role_image() ?> alt="">
+                    <?php foreach ($reviews as $item) { ?>
+                        <div class="swiper-slide">
+                            <div class="revfull-slider__item">
+                                <ul class="r-list revfull-slider__top">
+                                    <li>
+                                        <div class="revfull-slider__photo">
+                                            <img class="r-size" src="<?= $item['foto'] ?>" <?= role_image() ?> alt="">
                                         </div>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="dialog revfull-slider__dialog text-hidden">
-                                <p>
-                                    Благодаря SAY YES! Соня уже в 5 лет умеет считать до двадцати по-английски,
-                                    знает цвета и названия некоторых животных. Занятия проходят в игровой форме и
-                                    ребенку не скучно! Отдельное спасибо мы хотели бы сказать преподавателю Благодаря SAY YES! Соня уже в 5 лет умеет считать до двадцати по-английски,
-                                    знает цвета и названия некоторых животных. Занятия проходят в игровой форме и
-                                    ребенку не скучно! Отдельное спасибо мы хотели бы сказать преподавателю Благодаря SAY YES! Соня уже в 5 лет умеет считать до двадцати по-английски,
-                                    знает цвета и названия некоторых животных. Занятия проходят в игровой форме и
-                                    ребенку не скучно! Отдельное спасибо мы хотели бы сказать преподавателю
-                                </p>
-                                <div class="text-show">
-                                    <span>Развернуть</span>
+                                    </li>
+                                    <li>
+                                        <div class="revfull-slider__name bold"><?= $item['header'] ?></div>
+                                        <div class="revfull-slider__article"><?= $item['subheader'] ?></div>
+                                        <a class="revfull-slider__link" href="<?= $item['profile'] ?>" target="_blank">
+                                            <span>Профиль в</span>
+                                            <div class="revfull-slider__social-icon">
+                                                <img class="r-size" src="<?= get_image('inst-min.svg') ?>" <?= role_image() ?> alt="">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="dialog revfull-slider__dialog text-hidden">
+                                    <p><?= $item['text'] ?></p>
+                                    <div class="text-show" style="cursor: pointer;">
+                                        <span>Развернуть</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="video-block">
-                                <img class="r-size" src="<?= get_image('video-preview.jpg') ?>" <?= role_image() ?> alt="">
+                                <a data-fancybox target="_blank" href="<?= $item['video_link'] ?>" class="video-block">
+                                    <img class="r-size" src="<?= $item['video_preview'] ?>" <?= role_image() ?> alt="">
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="revfull-slider__item">
-                            <ul class="r-list revfull-slider__top">
-                                <li>
-                                    <div class="revfull-slider__photo">
-                                        <img class="r-size" src="<?= get_image('rev-photo.png') ?>" <?= role_image() ?> alt="">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="revfull-slider__name bold">Екатерина</div>
-                                    <div class="revfull-slider__article">Мама ученицы Софии, 5 лет</div>
-                                    <a class="revfull-slider__link" href="#">
-                                        <span>Профиль в</span>
-                                        <div class="revfull-slider__social-icon">
-                                            <img class="r-size" src="<?= get_image('inst-min.svg') ?>" <?= role_image() ?> alt="">
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="dialog revfull-slider__dialog text-hidden">
-                                <p>
-                                    Благодаря SAY YES! Соня уже в 5 лет умеет считать до двадцати по-английски,
-                                    знает цвета и названия некоторых животных. Занятия проходят в игровой форме и
-                                    ребенку не скучно! Отдельное спасибо мы хотели бы сказать преподавателю Благодаря SAY YES! Соня уже в 5 лет умеет считать до двадцати по-английски,
-                                    знает цвета и названия некоторых животных. Занятия проходят в игровой форме и
-                                    ребенку не скучно! Отдельное спасибо мы хотели бы сказать преподавателю Благодаря SAY YES! Соня уже в 5 лет умеет считать до двадцати по-английски,
-                                    знает цвета и названия некоторых животных. Занятия проходят в игровой форме и
-                                    ребенку не скучно! Отдельное спасибо мы хотели бы сказать преподавателю
-                                </p>
-                                <div class="text-show">
-                                    <span>Развернуть</span>
-                                </div>
-                            </div>
-                            <div class="video-block">
-                                <img class="r-size" src="<?= get_image('video-preview.jpg') ?>" <?= role_image() ?> alt="">
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
             <div class="swiper-button-next revfull-slider-next"></div>
@@ -745,9 +825,9 @@ function role_image()
             </div>
         </div>
         <div class="about-progress__column">
-            <div class="video-block about-progress__video">
+            <a data-fancybox href="https://youtu.be/lSL9KuIwc_0" target="_blank" class="video-block about-progress__video">
                 <img class="r-size" src="<?= get_image('video-prev.jpg') ?>" <?= role_image() ?> alt="">
-            </div>
+            </a>
         </div>
     </div>
     <style>
@@ -822,6 +902,68 @@ function role_image()
             </ul>
         </div>
     </div>
+
+    <?php
+    $questions = [
+        [
+            'header' => 'Сколько стоит обучение?',
+            'text' => 'Стоимость обучения зависит от продолжительности урока (25 или 50 минут) и от количества
+приобретаемых уроков: чем больше уроков в приобретенном пакете, тем выгоднее. Вы
+можете приобрести 4, 8, 16 или 32 урока. Стоимость начинается от 500 рублей за урок. Более
+подробную информацию вам предоставит менеджер.',
+        ],
+        [
+            'header' => 'Как начать заниматься?',
+            'text' => 'После того, как вы оставите заявку на пробный урок, с вами свяжется наш менеджер.
+Менеджер уточнит у вас детали, необходимые для начала обучения и ответит на ваши
+вопросы. Далее, мы подберем преподавателя и проведем для вашего ребенка пробное
+занятие. После урока с вами свяжется менеджер и , если вам понравится преподаватель и
+пробный урок, вы сможете обсудить график занятий, оплатить обучение и начать заниматься.',
+        ],
+        [
+            'header' => 'Могу ли я выбрать преподавателя для ребенка?',
+            'text' => 'Во время консультации по телефону наш менеджер детально расспросит вас о вашем ребенке,
+его знаниях, увлечениях, характере и особенностях, также
+мы обязательно учтём ваши пожелания к преподавателю. В случае необходимости, вы можете
+в любой момент запросить замену преподавателя и мы снова организуем пробный урок для
+вас.',
+        ],
+        [
+            'header' => 'Где проходят занятия? Нужно ли мне что-то устанавливать для уроков?',
+            'text' => 'Вам нужен только компьютер и доступ в интернет.
+Обучение в нашей школе проходит на нашей собственной онлайн-платформе. У вас будет
+доступ в Личный кабинет, где будет отображена вся информация по оплатам, пройденным и
+предстоящим урокам, а также отчет о прогрессе вашего ребенка.
+Все материалы к урокам мы предоставляем, они будут находиться внутри классной комнаты, в
+которой проходят онлайн-уроки.',
+        ],
+        [
+            'header' => 'Возможно ли заниматься с телефона?',
+            'text' => 'В классной комнате нашей платформы дети видят материал урока, а также видео себя и
+учителя. Размеры экрана телефона недостаточны, чтобы ребенок отчетливо распознавал
+артикуляцию учителя, его мимику и четко видел, что отображено на обучающих материалах.
+Поэтому для эффективных занятий вам будет необходим компьютер, ноутбук или планшет.',
+        ],
+        [
+            'header' => 'Нужно ли родителю присутствовать на уроках?',
+            'text' => 'Мы рекомендуем родителю присутствовать на пробном уроке и на нескольких первых
+полноценных уроках, пока ребенок не привыкнет к формату и учителю. Если вашему ребенку
+5-6 лет, особенно важно поддержать его пробном уроке, чтобы он не растерялся перед
+незнакомым преподавателем.',
+        ],
+        [
+            'header' => 'Как я пойму, что у ребёнка есть прогресс, если я не говорю по-английски?',
+            'text' => 'Не реже, чем раз в месяц преподаватель готовит отчёт об успехах вашего ребёнка, который вы
+сможете видеть в Личном кабинете в нашей онлайн-платформе. Также, мы можем предложить
+вам снимать вашего ребёнка на видео, раз в месяц, чтобы прогресс было легче отследить.',
+        ],
+        [
+            'header' => 'Есть ли у вас какие-либо скидки и акции?',
+            'text' => 'Да, есть. Мы дарим вам 2 урока в подарок за каждого нового студента, который пришёл по
+вашей рекомендации.',
+        ],
+    ];
+    ?>
     <style>
         .section-bg._accordeon-section {
             background-image: url('<?= get_image('accordeon-section-bg.png') ?>');
@@ -840,51 +982,15 @@ function role_image()
                         <img class="r-size accordeon-image-mobile" src="<?= get_image('accordeon-image-mobile.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <ul class="r-list accordeon">
-                        <li class="accordeon-card">
-                            <div class="accordeon-card-header">
-                                <span>С какого возраста лучше всего начать изучение английского языка?</span>
-                                <img src="<?= get_image('accordeon-down.svg') ?>" <?= role_image() ?> alt="">
-                            </div>
-                            <div class="accordeon-card-content">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus sapiente molestias. Temporibus, delectus commodi. Quae, ad consequuntur dolorum unde doloremque repudiandae, iure enim, est animi ea alias error quasi.
-                            </div>
-                        </li>
-                        <li class="accordeon-card">
-                            <div class="accordeon-card-header">
-                                <span>С какого возраста лучше всего начать изучение английского языка?</span>
-                                <img src="<?= get_image('accordeon-down.svg') ?>" <?= role_image() ?> alt="">
-                            </div>
-                            <div class="accordeon-card-content">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus sapiente molestias. Temporibus, delectus commodi. Quae, ad consequuntur dolorum unde doloremque repudiandae, iure enim, est animi ea alias error quasi.
-                            </div>
-                        </li>
-                        <li class="accordeon-card">
-                            <div class="accordeon-card-header">
-                                <span>С какого возраста лучше всего начать изучение английского языка?</span>
-                                <img src="<?= get_image('accordeon-down.svg') ?>" <?= role_image() ?> alt="">
-                            </div>
-                            <div class="accordeon-card-content">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus sapiente molestias. Temporibus, delectus commodi. Quae, ad consequuntur dolorum unde doloremque repudiandae, iure enim, est animi ea alias error quasi.
-                            </div>
-                        </li>
-                        <li class="accordeon-card">
-                            <div class="accordeon-card-header">
-                                <span>С какого возраста лучше всего начать изучение английского языка?</span>
-                                <img src="<?= get_image('accordeon-down.svg') ?>" <?= role_image() ?> alt="">
-                            </div>
-                            <div class="accordeon-card-content">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus sapiente molestias. Temporibus, delectus commodi. Quae, ad consequuntur dolorum unde doloremque repudiandae, iure enim, est animi ea alias error quasi.
-                            </div>
-                        </li>
-                        <li class="accordeon-card">
-                            <div class="accordeon-card-header">
-                                <span>С какого возраста лучше всего начать изучение английского языка?</span>
-                                <img src="<?= get_image('accordeon-down.svg') ?>" <?= role_image() ?> alt="">
-                            </div>
-                            <div class="accordeon-card-content">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus repellendus sapiente molestias. Temporibus, delectus commodi. Quae, ad consequuntur dolorum unde doloremque repudiandae, iure enim, est animi ea alias error quasi.
-                            </div>
-                        </li>
+                        <?php foreach ($questions as $item) { ?>
+                            <li class="accordeon-card">
+                                <div class="accordeon-card-header">
+                                    <span><?= $item['header'] ?></span>
+                                    <img src="<?= get_image('accordeon-down.svg') ?>" <?= role_image() ?> alt="">
+                                </div>
+                                <div class="accordeon-card-content"><?= $item['text'] ?></div>
+                            </li>
+                        <?php } ?>
                     </ul>
                 </div>
             </div>
@@ -1094,6 +1200,8 @@ function role_image()
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
 
     <script src="https://static.sayes.ru/js/crm.js"></script>
     <script src="https://static.sayes.ru/js/masked-input.js"></script>
@@ -1149,6 +1257,16 @@ function role_image()
         });
 
         /******************************************* */
+
+        $('[data-fancybox]').fancybox({
+            youtube: {
+                controls: 0,
+                showinfo: 0
+            },
+            vimeo: {
+                color: 'f00'
+            }
+        });
 
         $('.programs-tabs .programs-tabs__item').click(function() {
             $('.programs-tabs__item').removeClass('is-active');
