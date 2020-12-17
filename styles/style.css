@@ -3245,14 +3245,17 @@ html {
 }
 .accordeon-card {
     margin-bottom: 30px;
-    background-color: #f1dfff;
     border-radius: 5px;
+    overflow: hidden;
+    background-color: #f1dfff;
 }
 .accordeon-card-header {
     display: flex;
     align-items: center;
+    width: 100%;
     padding: 25px 35px;
     cursor: pointer;
+    text-align: left;
 }
 .accordeon-card-header span {
     display: block;
@@ -3261,7 +3264,7 @@ html {
 }
 .accordeon-card-content {
     display: none;
-    border-radius: 0 0 5px 5px;
+    padding:  0 20px 20px;
 }
 .accordeon-image-mobile {
     display: none;

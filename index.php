@@ -981,13 +981,13 @@ function role_image()
                         <h2 class="h2">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,</span> <span>руководитель школы SAY YES!</span></span></h2>
                         <img class="r-size accordeon-image-mobile" src="<?= get_image('accordeon-image-mobile.png') ?>" <?= role_image() ?> alt="">
                     </div>
-                    <ul class="r-list accordeon">
+                    <ul id="accordeon" class="r-list accordeon">
                         <?php foreach ($questions as $item) { ?>
                             <li class="accordeon-card">
-                                <div class="accordeon-card-header">
+                                <button type="button" class="r-button accordeon-card-header">
                                     <span><?= $item['header'] ?></span>
                                     <img src="<?= get_image('accordeon-down.svg') ?>" <?= role_image() ?> alt="">
-                                </div>
+                                </button>
                                 <div class="accordeon-card-content"><?= $item['text'] ?></div>
                             </li>
                         <?php } ?>
@@ -1257,6 +1257,15 @@ function role_image()
         });
 
         /******************************************* */
+        var $accordeon = $('#accordeon');
+        $accordeon.find('button').on('click', function() {
+            var $this = $(this);
+            var $content = $this.parent().find('.accordeon-card-content');
+            if (!$content.hasClass('_is_open')) {
+                $accordeon.find('.accordeon-card-content').removeClass('_is_open').slideUp();
+            }
+            $content.addClass('_is_open').slideDown();
+        });
 
         $('[data-fancybox]').fancybox({
             youtube: {
