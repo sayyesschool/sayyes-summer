@@ -884,7 +884,7 @@ function role_image()
                         </div>
                     </div>
                     <div class="lessons-info__img">
-                        <img class="r-size" src="<?= get_image('lesson-img.jpg') ?>" <?= role_image() ?> alt="">
+                        <img class="r-size" src="<?= get_image('progress-report.jpg') ?>" <?= role_image() ?> alt="">
                     </div>
                 </li>
                 <li>
@@ -896,7 +896,7 @@ function role_image()
                         </div>
                     </div>
                     <div class="lessons-info__img">
-                        <img class="r-size" src="<?= get_image('lesson-img.jpg') ?>" <?= role_image() ?> alt="">
+                        <img class="r-size" src="<?= get_image('speaking-club.jpg') ?>" <?= role_image() ?> alt="">
                     </div>
                 </li>
             </ul>
