@@ -19,6 +19,16 @@ html {
     background-color: #fff;
     color: #180727;
 }
+.-visually-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
 .h2 {
     color: var(--color-violet);
     font-weight: 700;
@@ -1107,7 +1117,7 @@ html {
     transform: translateY(-50%);
     width: 19px;
     height: 19px;
-    background: url('https://static.sayes.ru/images/kids/tooltip-min.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/tooltip-min-2.svg') no-repeat center;
     background-size: contain;
 }
 
@@ -2143,10 +2153,6 @@ html {
         padding: 27px 37px;
     }
 
-    .reviews-slider__list li:first-child img {
-        width: 213px;
-    }
-
     .reviews-slider__list img {
         display: block;
     }
@@ -2705,6 +2711,7 @@ html {
     padding-bottom: 130px;
     margin-bottom: 64px;
     background: linear-gradient(103.82deg, #833cc0 18.46%, #904bcc 50.69%, #a944ff 71.71%, #b36cef 92.86%);
+    overflow: hidden;
 }
 .ourteam-container {
     position: relative;
@@ -2749,13 +2756,36 @@ html {
 
 .team-slider__top {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .team-slider__photo {
+    position: relative;
     width: 300px;
-    border-radius: 90px;
     overflow: hidden;
+}
+.team-slider__photo > img {
+    border-radius: 60px;
+}
+
+.team-slider__photo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+}
+.team-slider__photo a:hover {
+    opacity: 1;
+}
+.team-slider__photo a img {
+    display: block;
+    border: none;
 }
 
 .team-slider__cont {
@@ -2790,7 +2820,7 @@ html {
     top: 0;
     width: 19px;
     height: 19px;
-    background: url('https://static.sayes.ru/images/kids/tooltip-icon-w.svg') no-repeat center;
+    background: url('https://static.sayes.ru/images/kids/tooltip-icon-w-2.svg') no-repeat center;
 }
 
 .text-show-w {
@@ -2857,6 +2887,7 @@ html {
 .team-tabs {
     margin-bottom: 31px;
     display: none;
+    overflow: visible !important;
 }
 
 .team-tabs__btn {
@@ -2968,6 +2999,12 @@ html {
 
     .team-slider__video-article {
         font-size: 11px;
+    }
+    .team-slider__photo > img {
+        border-radius: 40px;
+    }
+    .team-slider__photo a img {
+        width: 40px;
     }
 }
 
@@ -3085,6 +3122,12 @@ html {
     .team-slider__article-mob .text-show {
         padding-top: 8px;
         color: white;
+    }
+    .team-slider__photo > img {
+        border-radius: 20px;
+    }
+    .team-slider__photo a img {
+        width: 30px;
     }
 }
 
@@ -3268,7 +3311,7 @@ html {
 }
 .accordeon-card-content {
     display: none;
-    padding:  0 20px 20px;
+    padding: 0 20px 20px;
 }
 .accordeon-image-mobile {
     display: none;
