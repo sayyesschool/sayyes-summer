@@ -2373,12 +2373,12 @@ html {
 
 .revfull-slider-next {
     right: -10px;
-    top: 56%;
+    top: 50%;
 }
 
 .revfull-slider-prev {
     left: -10px;
-    top: 56%;
+    top: 50%;
 }
 
 @media (min-width: 800px) and (max-width: 1199px) {
