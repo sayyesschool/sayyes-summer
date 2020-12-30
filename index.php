@@ -1212,8 +1212,8 @@ $reviews_from_portals = [
     </div>
 
     <div id="js-modal-form" class="modal-container">
-        <button class="r-button modal-overlay"><span class="-visually-hidden">Закрыть</span></button>
         <div class="modal-wrapper">
+            <button id="js-close2-modal-form" class="r-button modal-overlay"><span class="-visually-hidden">Закрыть</span></button>
             <div class="modal modal_loan">
                 <form class="modal__inner form-loan js-form">
                     <button id="js-close-modal-form" class="modal-close" type="button"></button>
@@ -1243,8 +1243,8 @@ $reviews_from_portals = [
     </div>
 
     <div id="js-modal-success" class="modal-container">
-        <button class="r-button modal-overlay"><span class="-visually-hidden">Закрыть</span></button>
         <div class="modal-wrapper">
+            <button id="js-close2-modal-success" class="r-button modal-overlay"><span class="-visually-hidden">Закрыть</span></button>
             <div class="modal modal_thanks">
                 <div class="modal__inner">
                     <button id="js-close-modal-success" class="modal-close" type="button"></button>
@@ -1465,7 +1465,6 @@ $reviews_from_portals = [
 
 
         $('.js-button').on('click', function() {
-            console.log(1)
             $modalForm.fadeIn();
         });
         // $('.js-button').on('click', function() {
@@ -1473,10 +1472,10 @@ $reviews_from_portals = [
         //     $modalForm.fadeIn();
         // });
 
-        $('#js-close-modal-form').on('click', function() {
+        $('#js-close-modal-form').add('#js-close2-modal-form').on('click', function() {
             $modalForm.fadeOut();
         });
-        $('#js-close-modal-success').on('click', function() {
+        $('#js-close-modal-success').add('#js-close2-modal-success').on('click', function() {
             $modalSuccess.fadeOut();
         });
     </script>

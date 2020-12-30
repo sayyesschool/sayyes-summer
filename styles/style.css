@@ -2559,12 +2559,10 @@ html {
     height: 100%;
     z-index: 9;
 }
-.modal-wrapper {
-    position: relative;
-    z-index: 10;
-}
 
 .modal {
+    position: relative;
+    z-index: 10;
     max-width: 650px;
     width: 100%;
     background: #8640c3;
