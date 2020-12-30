@@ -1115,8 +1115,8 @@ html {
     top: 50%;
     left: 0px;
     transform: translateY(-50%);
-    width: 19px;
-    height: 19px;
+    width: 21px;
+    height: 21px;
     background: url('https://static.sayes.ru/images/kids/tooltip-min-2.svg') no-repeat center;
     background-size: contain;
 }
@@ -1191,6 +1191,13 @@ html {
     .programs-content__dialog {
         width: 148px;
     }
+    .info-list li:after {
+        width: 17px;
+        height: 17px;
+    }
+    .info-list li {
+        padding-left: 22px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -1258,6 +1265,13 @@ html {
 
     .programs-content__dialog {
         width: calc(100% - 82px);
+    }
+    .info-list li:after {
+        width: 11px;
+        height: 11px;
+    }
+    .info-list li {
+        padding-left: 18px;
     }
 }
 
@@ -2842,7 +2856,6 @@ html {
 
 .team-slider__list {
     font-size: 19px;
-    font-weight: 300;
 }
 
 .team-slider__list li {
@@ -2856,9 +2869,11 @@ html {
     position: absolute;
     left: 0;
     top: 0;
-    width: 19px;
-    height: 19px;
+    width: 21px;
+    height: 21px;
     background: url('https://static.sayes.ru/images/kids/tooltip-icon-w-2.svg') no-repeat center;
+    background-size: contain;
+
 }
 
 .text-show-w {
