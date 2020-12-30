@@ -172,45 +172,45 @@ $reviews = [
         'foto' => get_image('inst2.jpg'),
         'subheader' => 'Мама ученика Степы, 6 лет',
         'profile' => 'https://www.instagram.com/olia_pi/',
-        'text' => 'Всем привет! Меня зовут Оля, а это мой сын Стёпа, он занимается английском по скайп в школе SAY YES уже четвёртый месяц. Благодаря интересным занятиям, Стёпа с лёгкостью выдерживает занятия по 50 минут два раза в неделю и уже прошёл целый учебник! На занятиях Стёпа учится в первую очередь говорить на английском, это было моё основное пожелание к занятиям. Но также, наш преподаватель Полина уделяет время чтению и письму на английском. Результат вижу в процессе выполнения домашнего задания - Стёпа делает всё быстро, запомнил много новых слов, стал понимать английский на слух. А ещё я заметила, что он стал чаще узнавать слова в песнях на английском) Конечно, говорить ему пока сложновато, но мы точно движемся в правильном направлении!',
-        'video_link' => 'https://youtu.be/WaAVxYmBCBA',
-        'video_preview' => 'http://i3.ytimg.com/vi/WaAVxYmBCBA/hqdefault.jpg',
+        'text' => 'Всем привет! Меня зовут Оля, а это мой сын Стёпа, он занимается английском по скайп в школе SAY&nbsp;YES уже четвёртый месяц. Благодаря интересным занятиям, Стёпа с лёгкостью выдерживает занятия по 50 минут два раза в неделю и уже прошёл целый учебник! На занятиях Стёпа учится в первую очередь говорить на английском, это было моё основное пожелание к занятиям. Но также, наш преподаватель Полина уделяет время чтению и письму на английском. Результат вижу в процессе выполнения домашнего задания - Стёпа делает всё быстро, запомнил много новых слов, стал понимать английский на слух. А ещё я заметила, что он стал чаще узнавать слова в песнях на английском) Конечно, говорить ему пока сложновато, но мы точно движемся в правильном направлении!',
+        'video_link' => 'https://youtu.be/_9bwp-3xPXY',
+        'video_preview' => 'http://i3.ytimg.com/vi/_9bwp-3xPXY/mqdefault.jpg',
     ],
     [
         'header' => 'Ксения',
         'foto' => get_image('inst3.jpg'),
         'subheader' => 'Мама учеников Льва, 10 лет и Ланы, 5 лет',
         'profile' => 'https://www.instagram.com/p/B9MMZ-hILEh/?igshid=c1xjyk7c1yei',
-        'text' => 'В школе Say Yes у меня учатся двое детей. Первопроходцем был десятилетний сын.Я долго выбирала для него курсы. Главной задачей было – заинтересовать ребёнка, так как он испытывал сильную антипатию к языку. При слове «английский» сын заявлял, что готов работать дворником, лишь бы не учить ненавистный ему предмет. Перепробовав много мест, решила взять пробный урок в Say Yes. Меня впечатлило, что перед первым занятием менеджеры очень подробно расспрашивали про увлечения сына и его жизнь. Все полученные данные передали учителю – Полине, которая настолько сумела увлечь сына за пробные 30 минут, что после него мой непоседливый ребёнок заявил о желании учиться и даже выполнять домашние задания! А уже через пару уроков он стал употреблять английские слова в обиходе. Конечно, такой успех у брата не прошёл мимо моей пятилетней дочки. Теперь и она с удовольствием познаёт азы английского языка вместе с нашей замечательной Полиной Орликовой!',
+        'text' => 'В школе SAY&nbsp;YES у меня учатся двое детей. Первопроходцем был десятилетний сын.Я долго выбирала для него курсы. Главной задачей было – заинтересовать ребёнка, так как он испытывал сильную антипатию к языку. При слове «английский» сын заявлял, что готов работать дворником, лишь бы не учить ненавистный ему предмет. Перепробовав много мест, решила взять пробный урок в SAY&nbsp;YES. Меня впечатлило, что перед первым занятием менеджеры очень подробно расспрашивали про увлечения сына и его жизнь. Все полученные данные передали учителю – Полине, которая настолько сумела увлечь сына за пробные 30 минут, что после него мой непоседливый ребёнок заявил о желании учиться и даже выполнять домашние задания! А уже через пару уроков он стал употреблять английские слова в обиходе. Конечно, такой успех у брата не прошёл мимо моей пятилетней дочки. Теперь и она с удовольствием познаёт азы английского языка вместе с нашей замечательной Полиной Орликовой!',
         'video_link' => 'https://youtu.be/voQ5bweTHwU',
-        'video_preview' => 'http://i3.ytimg.com/vi/voQ5bweTHwU/hqdefault.jpg',
+        'video_preview' => 'http://i3.ytimg.com/vi/voQ5bweTHwU/mqdefault.jpg',
     ],
     [
         'header' => 'Ирина',
         'foto' => get_image('inst4.jpg'),
         'subheader' => 'Мама ученицы Маши, 12 лет',
         'profile' => 'https://www.instagram.com/ir.parshina/?igshid=ibabxlgtyc6r',
-        'text' => 'Меня зовут Ирина, моя дочь Маша занимается в школе Say Yes. В этом году мы решили заняться английским дополнительно, потому что появились проблемы в школе. Я бы рада помочь дочери, но к своему стыду я ни слова не знаю по-английски. Огромное спасибо хочу сказать нашему преподавателю - Марии Наливайкиной. Я не знаю, как ей это удается, ведь возраст сложный, эти барышни в 12 лет со своим внутренним протестом и заниматься не хотят, но тем не менее я вижу результат, и что самое главное, Маша сама делает домашнее задание и даже с удовольствием, и в школе стало все получаться. Спасибо огромное школе Say Yes!',
+        'text' => 'Меня зовут Ирина, моя дочь Маша занимается в школе SAY&nbsp;YES. В этом году мы решили заняться английским дополнительно, потому что появились проблемы в школе. Я бы рада помочь дочери, но к своему стыду я ни слова не знаю по-английски. Огромное спасибо хочу сказать нашему преподавателю - Марии Наливайкиной. Я не знаю, как ей это удается, ведь возраст сложный, эти барышни в 12 лет со своим внутренним протестом и заниматься не хотят, но тем не менее я вижу результат, и что самое главное, Маша сама делает домашнее задание и даже с удовольствием, и в школе стало все получаться. Спасибо огромное школе SAY&nbsp;YES!',
         'video_link' => 'https://youtu.be/thqTEQRgSjg',
-        'video_preview' => 'http://i3.ytimg.com/vi/thqTEQRgSjg/hqdefault.jpg',
+        'video_preview' => 'http://i3.ytimg.com/vi/thqTEQRgSjg/mqdefault.jpg',
     ],
     [
         'header' => 'Екатерина',
         'foto' => get_image('inst5.jpg'),
         'subheader' => 'Мама ученицы Софьи, 5лет',
         'profile' => 'https://www.instagram.com/ekaterina.dzhurinskaya/',
-        'text' => 'Моей дочке Софье 5 лет, и она учится в школе SAY YES по скайпу. Занятия очень интерактивные. Это и теория в легкой форме, и игры, и песни, и очень такая душевная подача информации. Мы учимся относительно недавно, но успехи уже налицо: это и очень легкое запоминание всех конструкций и пополненный словарный запас, и это всегда ожидание новых уроков. Как мама я одно могу сказать – это дорогого стоит заинтересовать маленького ребенка и держать его внимание на протяжении урока. Поэтому я просто огромную благодарность высказываю школе SAY YES за их подход индивидуальный и за те знания, которые они дают. Если вы ищите школу дистанционного обучения для своего ребенка, то я вам очень рекомендую обратить внимания на эту школу! Всего вам самого лучшего и выбирайте лучших!',
+        'text' => 'Моей дочке Софье 5 лет, и она учится в школе SAY&nbsp;YES по скайпу. Занятия очень интерактивные. Это и теория в легкой форме, и игры, и песни, и очень такая душевная подача информации. Мы учимся относительно недавно, но успехи уже налицо: это и очень легкое запоминание всех конструкций и пополненный словарный запас, и это всегда ожидание новых уроков. Как мама я одно могу сказать – это дорогого стоит заинтересовать маленького ребенка и держать его внимание на протяжении урока. Поэтому я просто огромную благодарность высказываю школе SAY&nbsp;YES за их подход индивидуальный и за те знания, которые они дают. Если вы ищите школу дистанционного обучения для своего ребенка, то я вам очень рекомендую обратить внимания на эту школу! Всего вам самого лучшего и выбирайте лучших!',
         'video_link' => 'https://youtu.be/MgGH2raaSZo',
-        'video_preview' => 'http://i3.ytimg.com/vi/MgGH2raaSZo/hqdefault.jpg',
+        'video_preview' => 'http://i3.ytimg.com/vi/MgGH2raaSZo/mqdefault.jpg',
     ],
     [
         'header' => 'Юлия',
         'foto' => get_image('inst6.jpg'),
         'subheader' => 'Мама ученка Миши, 7лет',
         'profile' => 'https://www.instagram.com/shkrediuliia/?igshid=1jovqom392njq',
-        'text' => 'Мы искали онлайн школу английского языка довольно долго. Проходили пробные уроки и видели, что ни интереса, ни любопытства у ребенка этот процесс не вызывает, скорее напряжение. Подумывала уже отложить эту идею. Случайно в ленте новостей увидела рекламу школы Say Yes и оставила заявку. Сразу увидела приятное отличие при общении с менеджером. Данное отличие в том, что первым делом, прежде чем рассказать, какая крутая школа и почему нужно выбрать именно ее, Виктория, уточнила имя сына, чем он увлекается, что ему нравится, какие персонажи мультфильмов, комиксов он любит. Такой подход, думаю будет эмоционально гораздо более приятен, тем более что цены плюс минус везде одинаковые. Прошли пробный урок с нашим преподавателем, и сын сразу сказал, что ему нравиться Полина (преподаватель). Возможно, еще и потому, что она очень симпатичная девушка)) В уроке очень хорошо использовали те приоритеты, которые выяснили заранее. Например, сын сейчас очень любит Микки Мауса. Мне тоже сразу отозвалась ее легкая, приятная манера общения, там, где нужно артистичная, где нужно спокойная. Я вижу и профессионализм в преподавании языка и чуткое искренние отношение к ребенку. Мы занимаемся 2 раза в неделю, и сын ждет занятий, что для него не свойственно. Ему стало интересно учить язык, новые слова, говорить что-то на английском дома. Мы очень рады и благодарим всех причастных к нашему счастливому обучению!',
+        'text' => 'Мы искали онлайн школу английского языка довольно долго. Проходили пробные уроки и видели, что ни интереса, ни любопытства у ребенка этот процесс не вызывает, скорее напряжение. Подумывала уже отложить эту идею. Случайно в ленте новостей увидела рекламу школы SAY&nbsp;YES и оставила заявку. Сразу увидела приятное отличие при общении с менеджером. Данное отличие в том, что первым делом, прежде чем рассказать, какая крутая школа и почему нужно выбрать именно ее, Виктория, уточнила имя сына, чем он увлекается, что ему нравится, какие персонажи мультфильмов, комиксов он любит. Такой подход, думаю будет эмоционально гораздо более приятен, тем более что цены плюс минус везде одинаковые. Прошли пробный урок с нашим преподавателем, и сын сразу сказал, что ему нравиться Полина (преподаватель). Возможно, еще и потому, что она очень симпатичная девушка)) В уроке очень хорошо использовали те приоритеты, которые выяснили заранее. Например, сын сейчас очень любит Микки Мауса. Мне тоже сразу отозвалась ее легкая, приятная манера общения, там, где нужно артистичная, где нужно спокойная. Я вижу и профессионализм в преподавании языка и чуткое искренние отношение к ребенку. Мы занимаемся 2 раза в неделю, и сын ждет занятий, что для него не свойственно. Ему стало интересно учить язык, новые слова, говорить что-то на английском дома. Мы очень рады и благодарим всех причастных к нашему счастливому обучению!',
         'video_link' => 'https://youtu.be/Avef-4osuMg',
-        'video_preview' => 'http://i3.ytimg.com/vi/Avef-4osuMg/hqdefault.jpg',
+        'video_preview' => 'http://i3.ytimg.com/vi/Avef-4osuMg/mqdefault.jpg',
     ],
 ];
 
@@ -229,7 +229,7 @@ $teachers = [
     [
         'name' => 'Полина Орликова',
         'video' => 'https://youtu.be/bteFTXr0Sqs',
-        'foto' => '11.png',
+        'foto' => '3.png',
         'text' => '',
         'features' => [
             '3 авторских курса по различным методикам обучения детей онлайн и офлайн',
@@ -273,7 +273,7 @@ $teachers = [
     ],
     [
         'name' => 'Сизова Полина',
-        'video' => '',
+        'video' => 'https://youtu.be/sOA73CpHHJk',
         'foto' => '4.png',
         'text' => '«То, что преподавание — абсолютно моя стезя, my cup of tea, я поняла еще на первом курсе института, когда решилась взять своего первого ученика. Сейчас, спустя много лет, посвященных прохождению различных курсов, повышению квалификации и постоянному совершенствованию в профессии, я убедилась, что по-настоящему люблю свое дело и хочу продолжать делиться своей любовью к нему со студентами!»',
         'features' => [
@@ -371,10 +371,10 @@ $reviews_from_portals = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Хочешь заговорить на английском, записывайся на пробный урок в сеть школ английского SAY YES!">
+    <meta name="description" content="Хочешь заговорить на английском, записывайся на пробный урок в сеть школ английского SAY&nbsp;YES!">
     <meta name="yandex-verification" content="77618a975ea21450">
 
-    <title>Бесплатный пробный урок английского в Москве | SAY YES!</title>
+    <title>Бесплатный пробный урок английского в Москве | SAY&nbsp;YES!</title>
 
     <link rel="icon" href="https://sayes.ru/wp-content/uploads/2018/09/cropped-favicon-32x32.png" sizes="32x32">
     <link rel="icon" href="https://sayes.ru/wp-content/uploads/2018/09/cropped-favicon-192x192.png" sizes="192x192">
@@ -432,7 +432,7 @@ $reviews_from_portals = [
                 <div class="header-main-right">
                     <div class="header-main-item _has_tel">
                         <div class="tel-call">
-                            <a href="<?= get_tel_for_href($info['tel']) ?>" class="r-link tel-call-tel"><?= $info['tel'] ?></a>
+                            <a target="_blank" href="<?= get_tel_for_href($info['tel']) ?>" class="r-link tel-call-tel"><?= $info['tel'] ?></a>
                             <button class="r-button tel-call-call js-button">
                                 <div>
                                     <img src="<?= get_image('tel-small.svg') ?>" <?= role_image() ?> alt="">
@@ -444,17 +444,17 @@ $reviews_from_portals = [
                     <div class="header-main-item _has_social">
                         <ul class="r-list social">
                             <li>
-                                <a href="<?= $info['whatsapp'] ?>">
+                                <a target="_blank" href="<?= $info['whatsapp'] ?>">
                                     <img <?= role_image() ?> src="<?= get_image('whatsapp.svg') ?>" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= $info['fb'] ?>">
+                                <a target="_blank" href="<?= $info['fb'] ?>">
                                     <img <?= role_image() ?> src="<?= get_image('facebook.svg') ?>" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= $info['in'] ?>">
+                                <a target="_blank" href="<?= $info['in'] ?>">
                                     <img <?= role_image() ?> src="<?= get_image('instagram.svg') ?>" alt="">
                                 </a>
                             </li>
@@ -524,10 +524,10 @@ $reviews_from_portals = [
                 </div>
                 <div class="form-main-row">
                     <div class="form-main-col _has_input">
-                        <input type="text" class="input" placeholder="Имя" name="name">
+                        <input type="text" class="input" placeholder="Имя" name="name" required>
                     </div>
                     <div class="form-main-col _has_input">
-                        <input type="tel" class="input" placeholder="Телефон" name="phone">
+                        <input type="tel" class="input" placeholder="Телефон" name="phone" required>
                     </div>
                     <div class="form-main-col _has_button">
                         <button type="submit" class="r-button button-accent button-form">
@@ -541,7 +541,7 @@ $reviews_from_portals = [
 
     <div class="section-third">
         <div class="container">
-            <h2 class="h2">Почему дети начинают разговаривать на английском, любить язык и получать хорошие отметки в школе, обучаясь в SAY YES?</h2>
+            <h2 class="h2">Почему дети начинают разговаривать на английском, любить язык и получать хорошие отметки в школе, обучаясь в SAY&nbsp;YES?</h2>
             <ul class="r-list cat-cards">
                 <li class="cat-card">
                     <div>
@@ -569,7 +569,7 @@ $reviews_from_portals = [
                         <div class="cat-card-header">Сертифицированные и талантливые педагоги</div>
                         <div class="cat-card-desc">Отбираем преподавателей по опыту и дипломам, а также по отзывам родителей учеников.</div>
                         <div class="cat-card-footer">
-                            <a class="r-link" href="#">Посмотреть видео от преподавателей</a>
+                            <a target="_blank" class="r-link scroll-to" href="#ourteam-section">Посмотреть видео от преподавателей</a>
                         </div>
                     </div>
                 </li>
@@ -737,11 +737,11 @@ $reviews_from_portals = [
             background-image: url('<?= get_image('ourteam-bg.png') ?>');
         }
     </style>
-    <div class="ourteam">
+    <div id="ourteam-section" class="ourteam">
         <div class="section-bg _ourteam"></div>
         <div class="container ourteam-container">
             <div class="cont-subtitle ourteam__sub-title semibold">
-                В зависимости от возраста и уровня ребенка, вы можете выбрать
+                Найдем подход к любому ребенку
             </div>
             <h2 class="h2 ourteam__title">
                 В нашей команде только внимательные и заботливые преподаватели с опытом обучения детей
@@ -782,7 +782,7 @@ $reviews_from_portals = [
                         <div class="swiper-slide teamtab" id="team-<?= $index ?>">
                             <div class="team-slider__top">
                                 <div class="team-slider__photo">
-                                    <a class="r-link" href="<?= $teacher['video'] ?>" target="blank">
+                                    <a data-fancybox data-width="640" data-height="360" target="_blank" class="r-link" href="<?= $teacher['video'] ?>" target="blank">
                                         <img src="<?= get_image('play.svg') ?>" alt="" <?= role_image() ?>>
                                         <span class="-visually-hidden">Смотреть видео</span>
                                     </a>
@@ -795,7 +795,7 @@ $reviews_from_portals = [
                                             <?= $teacher['text'] ?>
                                         </p>
                                     </div>
-                                    <ul class="r-list team-slider__list semibold">
+                                    <ul class="r-list team-slider__list">
                                         <?php
                                         foreach ($teacher['features'] as $item) {
                                             if (!empty($item)) {
@@ -836,7 +836,7 @@ $reviews_from_portals = [
             Эффективность нашего обучения подтверждена отзывами и наградами
         </div>
         <h2 class="h2 advantages__title">
-            Школа SAY YES! существует в оффлайн формате в Москве и 4 раза становилась победителем премии
+            Школа SAY&nbsp;YES! существует в оффлайн формате в Москве и 4 раза становилась победителем премии
             «Эксперт Года» от SchoolRate
         </h2>
         <div class="container">
@@ -914,7 +914,7 @@ $reviews_from_portals = [
                                 </li>
                                 </li>
                             </ul>
-                            <a class="reviews-slider__link" href="<?= $portal['link']['href'] ?>"><?= $portal['link']['text'] ?></a>
+                            <a target="_blank" class="reviews-slider__link" href="<?= $portal['link']['href'] ?>"><?= $portal['link']['text'] ?></a>
                         </div>
                     <?php } ?>
                 </div>
@@ -952,7 +952,7 @@ $reviews_from_portals = [
                                         <span>Развернуть</span>
                                     </div>
                                 </div>
-                                <a data-fancybox target="_blank" href="<?= $item['video_link'] ?>" class="video-block">
+                                <a data-fancybox data-width="640" data-height="360" target="_blank" href="<?= $item['video_link'] ?>" class="video-block">
                                     <img class="r-size" src="<?= $item['video_preview'] ?>" <?= role_image() ?> alt="">
                                 </a>
                             </div>
@@ -973,7 +973,7 @@ $reviews_from_portals = [
             </div>
         </div>
         <div class="about-progress__column">
-            <a data-fancybox href="https://youtu.be/lSL9KuIwc_0" target="_blank" class="video-block about-progress__video">
+            <a data-fancybox data-width="640" data-height="360" href="https://youtu.be/lSL9KuIwc_0" target="_blank" class="video-block about-progress__video">
                 <img class="r-size" src="<?= get_image('video-prev.jpg') ?>" <?= role_image() ?> alt="">
             </a>
         </div>
@@ -1065,7 +1065,7 @@ $reviews_from_portals = [
                 </div>
                 <div class="accordeon-section-content">
                     <div class="accordeon-section-header">
-                        <h2 class="h2">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,</span> <span>руководитель школы SAY YES!</span></span></h2>
+                        <h2 class="h2">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,</span> <span>руководитель школы SAY&nbsp;YES!</span></span></h2>
                         <img class="r-size accordeon-image-mobile" src="<?= get_image('accordeon-image-mobile.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <ul id="accordeon" class="r-list accordeon">
@@ -1115,10 +1115,10 @@ $reviews_from_portals = [
                 </div>
                 <div class="form-main-row">
                     <div class="form-main-col _has_input">
-                        <input type="text" class="input" placeholder="Имя" name="name">
+                        <input type="text" class="input" placeholder="Имя" name="name" required>
                     </div>
                     <div class="form-main-col _has_input">
-                        <input type="tel" class="input" placeholder="Телефон" name="phone">
+                        <input type="tel" class="input" placeholder="Телефон" name="phone" required>
                     </div>
                     <div class="form-main-col _has_button">
                         <button type="submit" class="r-button button-accent button-form">
@@ -1141,7 +1141,7 @@ $reviews_from_portals = [
                         </div>
                     </li>
                     <li>
-                        <a class="recall" href="<?= get_tel_for_href($info['tel']) ?>"><?= $info['tel'] ?></a>
+                        <a target="_blank" class="recall" href="<?= get_tel_for_href($info['tel']) ?>"><?= $info['tel'] ?></a>
                     </li>
                     <li>
                         <a class="whatsup-link bold" href="<?= $info['whatsapp'] ?>">Написать в WhatsApp</a>
@@ -1154,7 +1154,7 @@ $reviews_from_portals = [
                         <div class="social-screen">
                             <img class="r-size" src="<?= get_image('phone-1.png') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <a class="subscription-social subscription-social_inst" href="<?= $info['in'] ?>">Подписаться на Instagram</a>
+                        <a target="_blank" class="subscription-social subscription-social_inst" href="<?= $info['in'] ?>">Подписаться на Instagram</a>
                     </li>
                     <li>
                         <div class="social-screen">
@@ -1177,7 +1177,7 @@ $reviews_from_portals = [
                     </div>
                     <ul class="r-list footer__contact">
                         <li>
-                            <a class="email-link" href="<?= get_email_for_href($info['email']) ?>"><?= $info['email'] ?></a>
+                            <a target="_blank" class="email-link" href="<?= get_email_for_href($info['email']) ?>"><?= $info['email'] ?></a>
                         </li>
                         <?php foreach ($info['addesses'] as $address) { ?>
                             <li>
@@ -1199,19 +1199,20 @@ $reviews_from_portals = [
             </div>
             <div class="footer__bottom">
                 <ul class="r-list footer__lisense">
-                    <li><a href="#">Лицензия ДО Правительства Москвы №036801</a></li>
-                    <li><a href="#">Результаты проведения СОУТ</a></li>
+                    <li><a target="_blank" href="#">Лицензия ДО Правительства Москвы №036801</a></li>
+                    <li><a target="_blank" href="#">Результаты проведения СОУТ</a></li>
                 </ul>
-                <div class="footer__copy">© 2013 - 2020 SAY YES!</div>
+                <div class="footer__copy">© 2013 - 2020 SAY&nbsp;YES!</div>
                 <ul class="r-list footer__privacy">
-                    <li><a href="<?= $info['pc']['link'] ?>"><?= $info['pc']['text'] ?></a></li>
-                    <li><a href="<?= $info['oferta']['link'] ?>"><?= $info['oferta']['text'] ?></a></li>
+                    <li><a target="_blank" href="<?= $info['pc']['link'] ?>"><?= $info['pc']['text'] ?></a></li>
+                    <li><a target="_blank" href="<?= $info['oferta']['link'] ?>"><?= $info['oferta']['text'] ?></a></li>
                 </ul>
             </div>
         </div>
     </div>
 
     <div id="js-modal-form" class="modal-container">
+        <button class="r-button modal-overlay"><span class="-visually-hidden">Закрыть</span></button>
         <div class="modal-wrapper">
             <div class="modal modal_loan">
                 <form class="modal__inner form-loan js-form">
@@ -1222,10 +1223,10 @@ $reviews_from_portals = [
                     </div>
                     <ul class="r-list modal__list">
                         <li>
-                            <input class="inp" type="text" placeholder="Имя" name="name">
+                            <input class="inp" type="text" placeholder="Имя" name="name" required>
                         </li>
                         <li>
-                            <input class="inp" type="tel" placeholder="Телефон" name="phone">
+                            <input class="inp" type="tel" placeholder="Телефон" name="phone" required>
                         </li>
                         <li>
                             <button class="form-loan__btn button-accent r-button" type="submit">Записаться на бесплатный урок</button>
@@ -1242,6 +1243,7 @@ $reviews_from_portals = [
     </div>
 
     <div id="js-modal-success" class="modal-container">
+        <button class="r-button modal-overlay"><span class="-visually-hidden">Закрыть</span></button>
         <div class="modal-wrapper">
             <div class="modal modal_thanks">
                 <div class="modal__inner">
@@ -1271,6 +1273,9 @@ $reviews_from_portals = [
     <script src="https://static.sayes.ru/js/masked-input.js"></script>
 
     <script>
+        var $modalForm = $('#js-modal-form');
+        var $modalSuccess = $('#js-modal-success');
+
         var formElement = document.querySelectorAll('form');
 
         $('input[type=tel]').mask('+7 (999) 999-9999');
@@ -1278,14 +1283,12 @@ $reviews_from_portals = [
         document.querySelectorAll('form').forEach(function(form) {
             form.addEventListener('submit', function(event) {
                 event.preventDefault();
-
+                var that = this;
                 var name = this.elements.name.value;
                 var phone = this.elements.phone.value;
-
                 if (!name || !phone) {
                     return false;
                 }
-
                 var data = {
                     type: 'Заявка на пробный урок',
                     name: name,
@@ -1305,7 +1308,10 @@ $reviews_from_portals = [
                     data: data,
                     contentType: 'application/x-www-form-urlencoded'
                 }).done(function() {
-                    formElement.reset();
+                    $modalForm.fadeOut();
+                    $modalSuccess.fadeIn();
+                    that.elements.name.value = '';
+                    that.elements.phone.value = '';
                 });
             });
         });
@@ -1327,6 +1333,9 @@ $reviews_from_portals = [
             var $content = $this.parent().find('.accordeon-card-content');
             if (!$content.hasClass('_is_open')) {
                 $accordeon.find('.accordeon-card-content').removeClass('_is_open').slideUp();
+            } else {
+                $content.removeClass('_is_open').slideUp();
+                return;
             }
             $content.addClass('_is_open').slideDown();
         });
@@ -1338,7 +1347,15 @@ $reviews_from_portals = [
             },
             vimeo: {
                 color: 'f00'
-            }
+            },
+        });
+
+        $('a.scroll-to').on('click', function(e) {
+            e.preventDefault();
+
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $(this.getAttribute('href')).offset().top
+            }, 1000);
         });
 
         $('.programs-tabs .programs-tabs__item').click(function() {
@@ -1446,17 +1463,15 @@ $reviews_from_portals = [
             }
         });
 
-        var $modalForm = $('#js-modal-form');
-        var $modalSuccess = $('#js-modal-success');
 
         $('.js-button').on('click', function() {
             console.log(1)
             $modalForm.fadeIn();
         });
-        $('.js-button').on('click', function() {
-            console.log(2)
-            $modalForm.fadeIn();
-        });
+        // $('.js-button').on('click', function() {
+        //     console.log(2)
+        //     $modalForm.fadeIn();
+        // });
 
         $('#js-close-modal-form').on('click', function() {
             $modalForm.fadeOut();

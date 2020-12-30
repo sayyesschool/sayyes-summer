@@ -2299,6 +2299,10 @@ html {
     height: auto;
 }
 
+.revfull-slider .video-block img {
+    width: 100%;
+}
+
 .text-show {
     text-align: right;
     color: var(--color-violet);
@@ -2315,6 +2319,9 @@ html {
     text-align: center;
     position: relative;
 }
+.video-block:hover:after {
+    opacity: 1;
+}
 .video-block img {
     display: block;
     margin: 0 auto;
@@ -2330,6 +2337,8 @@ html {
     height: 55px;
     background: url('https://static.sayes.ru/images/kids/play.svg') no-repeat center;
     background-size: contain;
+    opacity: 0.5;
+    transition: all 300ms linear;
 }
 @media (max-width: 1199px) {
     .video-block:after {
@@ -2529,12 +2538,39 @@ html {
 }
 
 /* Модалки ========================= */
+.modal-container {
+    display: none;
+    overflow-y: scroll;
+    position: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.modal-wrapper {
+    position: relative;
+    z-index: 10;
+}
+
 .modal {
     max-width: 650px;
     width: 100%;
     background: #8640c3;
     padding: 25px 30px;
     color: white;
+    margin: 0 auto;
 }
 
 .modal__block {
@@ -2561,6 +2597,7 @@ html {
     background: url('https://static.sayes.ru/images/kids/close-modal.svg') no-repeat center;
     background-size: contain;
     border: none;
+    cursor: pointer;
 }
 
 .modal__title {
@@ -2779,6 +2816,7 @@ html {
     height: 100%;
     z-index: 1;
     opacity: 0.5;
+    transition: all 300ms linear;
 }
 .team-slider__photo a:hover {
     opacity: 1;
@@ -2801,10 +2839,12 @@ html {
 .team-slider__article {
     font-size: 19px;
     line-height: 26px;
+    font-weight: 300;
 }
 
 .team-slider__list {
     font-size: 19px;
+    font-weight: 300;
 }
 
 .team-slider__list li {
@@ -3038,6 +3078,9 @@ html {
     .team-slider__photo {
         width: 86px;
     }
+    .team-slider__list {
+        font-weight: 400;
+    }
 
     .team-slider__cont {
         width: calc(100% - 86px);
@@ -3050,6 +3093,7 @@ html {
 
     .ourteam__list {
         flex-direction: column;
+        font-weight: 400;
     }
 
     .ourteam__list li {
@@ -3291,7 +3335,7 @@ html {
     margin-left: 77px;
 }
 .accordeon-card {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-radius: 5px;
     overflow: hidden;
     background-color: #f1dfff;
@@ -3300,7 +3344,8 @@ html {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 25px 35px;
+    /* padding: 25px 35px; */
+    padding: 15px 35px;
     cursor: pointer;
     text-align: left;
 }
@@ -3331,9 +3376,9 @@ html {
         font-size: 19px;
         margin-bottom: 18px;
     }
-    .accordeon-card {
+    /* .accordeon-card {
         margin-bottom: 20px;
-    }
+    } */
     .accordeon-card-header {
         font-size: 9px;
         padding: 12px 18px 12px 8px;
@@ -3370,6 +3415,7 @@ html {
         flex-direction: column;
         justify-content: space-between;
         padding-top: 25px;
+        margin-bottom: 0;
     }
     .accordeon-section-header h2 span {
         display: block;
@@ -3415,19 +3461,3 @@ html {
 
 /**********************************************/
 
-.modal-container {
-    display: none;
-    overflow-y: scroll;
-    position: fixed;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 999;
-}
-.modal {
-    margin: 0 auto;
-}
