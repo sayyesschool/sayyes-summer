@@ -453,7 +453,7 @@ $reviews_from_portals = [
                     <div class="header-main-item _has_social">
                         <ul class="r-list social">
                             <li>
-                                <a target="_blank" href="<?= $info['whatsapp'] ?>">
+                                <a class="whatsapp-button" target="_blank" href="<?= $info['whatsapp'] ?>">
                                     <img <?= role_image() ?> src="<?= get_image('whatsapp.svg') ?>" alt="">
                                 </a>
                             </li>
@@ -1163,7 +1163,7 @@ $reviews_from_portals = [
                         <div class="social-screen">
                             <img class="r-size" src="<?= get_image('phone-1.png') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <a target="_blank" class="subscription-social subscription-social_inst" href="<?= $info['in'] ?>">Подписаться на Instagram</a>
+                        <a target="_blank" class="subscription-social subscription-social_inst instagram-button" href="<?= $info['in'] ?>">Подписаться на Instagram</a>
                     </li>
                     <li>
                         <div class="social-screen">
@@ -1330,7 +1330,13 @@ $reviews_from_portals = [
             gtag('event', 'click', {
                 event_category: 'click'
             });
-            fbq('track', 'InitiateCheckout');
+            fbq('track', 'Contact');
+
+            return true;
+        });
+
+        $('.instagram-button').click(function() {
+            fbq('track', 'AddToWishlist_insta');
 
             return true;
         });
