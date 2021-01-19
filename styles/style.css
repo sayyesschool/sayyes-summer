@@ -1011,15 +1011,20 @@ html {
         width: 100%;
     }
     .comfort-message {
+        position: relative;
         align-items: flex-start;
     }
     .comfort-message span {
         display: block;
-        padding-right: 20px;
-        padding-left: 40px;
+        padding-right: 125px;
+        padding-left: 36px;
+        padding-bottom: 60px;
     }
     .comfort-message img {
-        transform: rotate(70deg);
+        position: absolute;
+        top: 0;
+        right: 43px;
+        transform: rotateZ(40deg) rotateX(180deg);
     }
     .comfort-info-footer .button-accent {
         display: none;
