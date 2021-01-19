@@ -405,7 +405,7 @@ html {
         display: none;
     }
     .header-main-item._has_logo img {
-        height: 45px;
+        height: 44px;
     }
     .tel-call-tel {
         font-size: 15px;
@@ -751,11 +751,11 @@ html {
         position: absolute;
         width: 0;
         height: 0;
-        top: 50%;
-        margin-top: -30px;
+        top: 30%;
+        margin-top: -31px;
         left: -20px;
         border-style: solid;
-        border-width: 20px 0em 20px 20px;
+        border-width: 22px 0px 20px 19px;
         border-color: transparent var(--color-violet) var(--color-violet) transparent;
     }
     .dialog._mobile_position-left:after {
@@ -764,11 +764,11 @@ html {
         width: 0;
         height: 0;
         border: none;
-        top: 50%;
-        margin-top: -25px;
-        left: -17px;
+        top: 30%;
+        margin-top: -27px;
+        left: -16px;
         border-style: solid;
-        border-width: 17px 0em 17px 17px;
+        border-width: 18px 0px 18px 18px;
         border-color: transparent #fff #fff transparent;
     }
     .form-main-row {
