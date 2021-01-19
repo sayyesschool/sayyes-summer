@@ -1217,11 +1217,7 @@ $reviews_from_portals = [
             </div>
             <div class="footer__bottom">
                 <ul class="r-list footer__lisense">
-<<<<<<< HEAD
-                    <li><a target="_blank" href="<?= $info['license']['link'] ?>"><?= $info['license']['text'] ?></a></li>
-=======
                     <li><a target="_blank" href="#">Лицензия ДО Правительства Москвы №036801</a></li>
->>>>>>> master
                 </ul>
                 <div class="footer__copy">© 2013 - 2021 SAY&nbsp;YES!</div>
                 <ul class="r-list footer__privacy">
