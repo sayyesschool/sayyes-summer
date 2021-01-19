@@ -28,12 +28,16 @@ $info = [
     ],
     'pc' => [
         'text' => 'Политика конфиденциальности',
-        'link' => '#'
+        'link' => 'https://sayes.ru/politika-konfidentsialnosti/'
     ],
     'oferta' => [
         'text' => 'Договор-оферта',
-        'link' => '#'
-    ]
+        'link' => 'https://sayes.ru/dogovor-oferta/'
+    ],
+    'license' => [
+        'text' => 'Лицензия ДО Правительства Москвы №036801',
+        'link' => 'https://sayes.ru/licenzii/'
+    ],
 ];
 
 $footer = [
@@ -640,9 +644,9 @@ $reviews_from_portals = [
                 </div>
             </div>
             <div class="comfort-video">
-                <div class="video-block">
+                <a data-fancybox data-width="640" data-height="360" target="_blank" href="https://youtu.be/T_v4tBsnD4c" class="video-block">
                     <img src="<?= get_image('video-comfort.jpg') ?>" <?= role_image() ?> alt="">
-                </div>
+                </a>
                 <button class="r-button button-accent button-form js-button" type="button">Записаться на бесплатный урок</button>
             </div>
         </div>
@@ -1211,8 +1215,7 @@ $reviews_from_portals = [
             </div>
             <div class="footer__bottom">
                 <ul class="r-list footer__lisense">
-                    <li><a target="_blank" href="#">Лицензия ДО Правительства Москвы №036801</a></li>
-                    <li><a target="_blank" href="#">Результаты проведения СОУТ</a></li>
+                    <li><a target="_blank" href="<?= $info['license']['link'] ?>"><?= $info['license']['text'] ?></a></li>
                 </ul>
                 <div class="footer__copy">© 2013 - 2020 SAY&nbsp;YES!</div>
                 <ul class="r-list footer__privacy">
