@@ -173,21 +173,21 @@ $questions = [
 $reviews = [
     [
         'header' => 'Ольга',
+        'foto' => get_image('inst1.jpg'),
+        'subheader' => 'Мама ученицы Кати, 10 лет',
+        'profile' => 'https://www.facebook.com/OlgaBourto',
+        'text' => 'Всем привет! Моя дочь Катюша в 4 классе, где-то полгода назад мы начали заниматься в языковой школе Say Yes. Изначально я относилась немного скептически к идее изучения английского по скайпу, потому что удержать внимание ребенка довольно сложно, особенно через монитор компьютера. Но пока что все удается, Катюша занимается с удовольствием - за что отдельное спасибо нашему преподавателю Наталье Курселевой, а самое главное - ребенок заговорил. Я вижу, что она не боится совершать ошибок, и формировать фразы у нее получается довольно легко и непринужденно. И в целом очень прикольно наблюдать, как твой ребенок начинает болтать по-английски:) Поэтому я очень довольна результатом, всем рекомендую языковую школу Say Yes!',
+        'video_link' => 'https://youtu.be/SVVQZh647bg',
+        'video_preview' => 'https://i3.ytimg.com/vi/SVVQZh647bg/mqdefault.jpg',
+    ],
+    [
+        'header' => 'Ольга',
         'foto' => get_image('inst2.jpg'),
         'subheader' => 'Мама ученика Степы, 6 лет',
         'profile' => 'https://www.instagram.com/olia_pi/',
         'text' => 'Всем привет! Меня зовут Оля, а это мой сын Стёпа, он занимается английском по скайп в школе SAY&nbsp;YES уже четвёртый месяц. Благодаря интересным занятиям, Стёпа с лёгкостью выдерживает занятия по 50 минут два раза в неделю и уже прошёл целый учебник! На занятиях Стёпа учится в первую очередь говорить на английском, это было моё основное пожелание к занятиям. Но также, наш преподаватель Полина уделяет время чтению и письму на английском. Результат вижу в процессе выполнения домашнего задания - Стёпа делает всё быстро, запомнил много новых слов, стал понимать английский на слух. А ещё я заметила, что он стал чаще узнавать слова в песнях на английском) Конечно, говорить ему пока сложновато, но мы точно движемся в правильном направлении!',
         'video_link' => 'https://youtu.be/WaAVxYmBCBA',
         'video_preview' => 'https://i3.ytimg.com/vi/WaAVxYmBCBA/mqdefault.jpg',
-    ],
-    [
-        'header' => 'Ольга',
-        'foto' => get_image('inst6.jpg'),
-        'subheader' => 'Мама ученицы Кати, 10 лет',
-        'profile' => 'https://www.instagram.com/olia_pi/',
-        'text' => 'Всем привет! Моя дочь Катюша в 4 классе, где-то полгода назад мы начали заниматься в языковой школе Say Yes. Изначально я относилась немного скептически к идее изучения английского по скайпу, потому что удержать внимание ребенка довольно сложно, особенно через монитор компьютера. Но пока что все удается, Катюша занимается с удовольствием - за что отдельное спасибо нашему преподавателю Наталье Курселевой, а самое главное - ребенок заговорил. Я вижу, что она не боится совершать ошибок, и формировать фразы у нее получается довольно легко и непринужденно. И в целом очень прикольно наблюдать, как твой ребенок начинает болтать по-английски:) Поэтому я очень довольна результатом, всем рекомендую языковую школу Say Yes!',
-        'video_link' => 'https://youtu.be/SVVQZh647bg',
-        'video_preview' => 'https://i3.ytimg.com/vi/SVVQZh647bg/mqdefault.jpg',
     ],
     [
         'header' => 'Ксения',
@@ -848,14 +848,16 @@ $reviews_from_portals = [
     </div>
 
     <div class="advantages">
-        <div class="cont-subtitle semibold">
-            Эффективность нашего обучения подтверждена отзывами и наградами
-        </div>
-        <h2 class="h2 advantages__title">
-            Школа SAY&nbsp;YES! существует в оффлайн формате в Москве и 4 раза становилась победителем премии
-            «Эксперт Года» от SchoolRate
-        </h2>
         <div class="container">
+            <div class="cont-subtitle semibold">
+                Эффективность нашего обучения подтверждена отзывами и наградами
+            </div>
+            
+            <h2 class="h2 advantages__title">
+                Школа SAY&nbsp;YES! существует в оффлайн формате в Москве и 4 раза становилась победителем премии
+                «Эксперт Года» от SchoolRate
+            </h2>
+        
             <div class="advantages__top">
                 <ul class="r-list advantage-list">
                     <li>
@@ -1081,7 +1083,7 @@ $reviews_from_portals = [
                 </div>
                 <div class="accordeon-section-content">
                     <div class="accordeon-section-header">
-                        <h2 class="h2">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,</span> <span>руководитель школы SAY&nbsp;YES!</span></span></h2>
+                        <h2 class="h2">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,<br>руководитель школы SAY&nbsp;YES!</span></span></h2>
                         <img class="r-size accordeon-image-mobile" src="<?= get_image('accordeon-image-mobile.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <ul id="accordeon" class="r-list accordeon">
@@ -1157,10 +1159,10 @@ $reviews_from_portals = [
                         </div>
                     </li>
                     <li>
-                        <a target="_blank" class="recall" href="<?= get_tel_for_href($info['tel']) ?>"><?= $info['tel'] ?></a>
+                        <a class="recall" href="<?= get_tel_for_href($info['tel']) ?>" target="_blank"><?= $info['tel'] ?></a>
                     </li>
                     <li>
-                        <a class="whatsup-link bold" href="<?= $info['whatsapp'] ?>">Написать в WhatsApp</a>
+                        <a class="whatsup-link bold" href="<?= $info['whatsapp'] ?>" target="_blank">Написать в WhatsApp</a>
                     </li>
                 </ul>
             </div>
@@ -1215,9 +1217,13 @@ $reviews_from_portals = [
             </div>
             <div class="footer__bottom">
                 <ul class="r-list footer__lisense">
+<<<<<<< HEAD
                     <li><a target="_blank" href="<?= $info['license']['link'] ?>"><?= $info['license']['text'] ?></a></li>
+=======
+                    <li><a target="_blank" href="#">Лицензия ДО Правительства Москвы №036801</a></li>
+>>>>>>> master
                 </ul>
-                <div class="footer__copy">© 2013 - 2020 SAY&nbsp;YES!</div>
+                <div class="footer__copy">© 2013 - 2021 SAY&nbsp;YES!</div>
                 <ul class="r-list footer__privacy">
                     <li><a target="_blank" href="<?= $info['pc']['link'] ?>"><?= $info['pc']['text'] ?></a></li>
                     <li><a target="_blank" href="<?= $info['oferta']['link'] ?>"><?= $info['oferta']['text'] ?></a></li>

@@ -171,8 +171,9 @@ html {
 @media (max-width: 700px) {
     .container {
         max-width: 450px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 }
 /****************************/
@@ -439,7 +440,7 @@ html {
         width: 50%;
     }
     .hero-list li {
-        margin-bottom: 0;
+        line-height: 1.5;
     }
     .hero-list img {
         width: 13px;
@@ -452,8 +453,8 @@ html {
     }
     .hero-subtitle {
         font-size: 14px;
-        margin-top: 5px;
-        margin-bottom: 22px;
+        margin-top: 10px;
+        margin-bottom: 44px;
     }
     .section-first-wave {
         height: 75px;
@@ -464,7 +465,8 @@ html {
         height: 48px;
         font-size: 13px;
         width: 260px;
-        margin-top: 35px;
+        margin: auto;
+        margin-top: 44px;
         position: relative;
         z-index: 10;
     }
@@ -477,14 +479,14 @@ html {
         height: 150px;
         position: absolute;
         z-index: 9;
-        right: -12px;
-        bottom: 90px;
+        right: 6px;
+        bottom: 74px;
         border-radius: 50%;
         transform: rotate(-47deg);
     }
     .hero-male {
         width: 205px;
-        right: -77px;
+        right: -55px;
         bottom: auto;
         top: auto;
         bottom: 200px;
@@ -653,7 +655,7 @@ html {
         line-height: 1.1;
     }
     .dialog {
-        font-size: 10px;
+        font-size: 12px;
         padding: 11px 9px;
     }
     .circle {
@@ -719,7 +721,7 @@ html {
     }
     .form-main ul li {
         width: 80%;
-        font-size: 12px;
+        font-size: 13px;
         margin: 0 auto;
         margin-bottom: 15px;
         align-items: center;
@@ -840,7 +842,7 @@ html {
         font-size: 13px;
     }
     .cat-card-info {
-        font-size: 11px;
+        font-size: 13px;
         padding-top: 12px;
     }
     .cat-card img {
@@ -864,7 +866,7 @@ html {
         font-size: 14px;
     }
     .cat-card-info {
-        font-size: 11px;
+        font-size: 13px;
         padding-top: 5px;
     }
 }
@@ -937,13 +939,11 @@ html {
         width: 80px;
     }
     .comfort .button-form {
-        height: 40px;
         padding-right: 27px;
         padding-left: 27px;
-        font-size: 12px;
     }
     .comfort ul {
-        font-size: 12px;
+        font-size: 13px;
         margin-top: 22px;
         margin-bottom: 35px;
     }
@@ -985,6 +985,9 @@ html {
         display: block;
         padding-left: 20px;
     }
+    .comfort h2 {
+        text-align: center;
+    }    
     .comfort ul {
         display: block;
         margin-bottom: 30px;
@@ -1012,7 +1015,6 @@ html {
     }
     .comfort-message span {
         display: block;
-        padding-top: 20px;
         padding-right: 20px;
         padding-left: 40px;
     }
@@ -1024,7 +1026,8 @@ html {
     }
     .comfort-video .button-accent {
         display: block;
-        margin-top: 45px;
+        margin: 45px auto 0;
+        width: auto;
     }
 }
 
@@ -1179,9 +1182,8 @@ html {
 
     .programs-content__btn {
         width: 230px;
-        height: 40px;
         margin-top: 37px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .programs-content__item {
@@ -1240,7 +1242,7 @@ html {
     }
 
     .info-list li {
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
 
@@ -1495,7 +1497,7 @@ html {
     display: inline-block;
     width: 261px;
     height: 50px;
-    line-height: 50px;
+    line-height: 46px;
     border: 2px solid #5a1294;
     border-radius: 90px;
     color: var(--color-violet);
@@ -1680,7 +1682,7 @@ html {
     .whatsup-link {
         width: 231px;
         height: 44px;
-        line-height: 44px;
+        line-height: 40px;
         font-size: 13px;
     }
 
@@ -1761,7 +1763,7 @@ html {
 
     .lessons-info__article {
         width: 320px;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 17px;
     }
 
@@ -1834,7 +1836,6 @@ html {
     margin-right: auto;
     text-align: center;
     margin-bottom: 49px;
-    padding: 0 10px;
 }
 
 .advantage-list {
@@ -1944,9 +1945,9 @@ html {
     }
 
     .adv-btn {
-        width: 230px;
-        height: 40px;
-        font-size: 12px;
+        width: 270px;
+        height: 48px;
+        font-size: 14px;
     }
 
     .advantages__bottom {
@@ -2015,7 +2016,7 @@ html {
 
     .dialog_adv {
         width: 183px;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 16px;
         padding: 6px 10px;
     }
@@ -2449,12 +2450,12 @@ html {
 @media (max-width: 700px) {
     .revfull-slider-next {
         top: 42px;
-        right: -15px;
+        right: -14px;
     }
 
     .revfull-slider-prev {
         top: 42px;
-        left: -15px;
+        left: -14px;
     }
 
     .revfull-slider-next:after,
@@ -2463,11 +2464,11 @@ html {
     }
 
     .reviews {
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
     .revfull-slider__item {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 }
 
@@ -2546,8 +2547,15 @@ html {
     }
 
     .about-progress__article {
-        width: 143px;
-        margin-left: 60px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .about-progress__article:after {
+        transform: rotate(70deg);
+        left: -103px;
+        top: -27px;
+        width: 92px;
     }
 }
 
@@ -3012,7 +3020,7 @@ html {
     }
 
     .team-slider__list {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .team-slider__list li {
@@ -3065,7 +3073,13 @@ html {
     .ourteam {
         padding-top: 60px;
         padding-bottom: 60px;
+        margin-bottom: 40px;
     }
+
+    .ourteam__title {
+        margin-bottom: 48px;
+    }
+
     .team-tabs {
         display: flex;
         justify-content: space-between;
@@ -3113,7 +3127,7 @@ html {
         width: 100%;
         padding-top: 0;
         text-align: left;
-        padding-left: 75px;
+        padding-left: 48px;
         margin-bottom: 23px;
     }
 
@@ -3166,7 +3180,7 @@ html {
 
     .team-slider__article-mob p {
         line-height: 19px;
-        font-size: 12px;
+        font-size: 13px;
         margin: 0;
         height: 38px;
         overflow: hidden;
@@ -3264,7 +3278,7 @@ html {
         font-size: 17px;
     }
     .price-section-card-subheader {
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 20px;
     }
     .price-section-card-price {
@@ -3301,7 +3315,7 @@ html {
         font-size: 18px;
     }
     .price-section-card-subheader {
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 18px;
     }
     .price-section-card-price {
@@ -3393,7 +3407,7 @@ html {
         margin-bottom: 20px;
     } */
     .accordeon-card-header {
-        font-size: 9px;
+        font-size: 12px;
         padding: 12px 18px 12px 8px;
     }
     .accordeon-card-header img {
@@ -3424,15 +3438,13 @@ html {
     }
     .accordeon-section-header h2 {
         font-size: 19px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-top: 25px;
+        padding-top: 36px;
         margin-bottom: 0;
     }
     .accordeon-section-header h2 span {
         display: block;
         font-size: 12px;
+        margin-top: 10px;
     }
 }
 
