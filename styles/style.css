@@ -1186,7 +1186,8 @@ html {
     }
 
     .programs-content__btn {
-        width: 230px;
+        width: 270px;
+        height: 48px;
         margin-top: 37px;
         font-size: 14px;
     }
@@ -1601,7 +1602,7 @@ html {
     .whatsup-link {
         width: 165px;
         height: 32px;
-        line-height: 32px;
+        line-height: 28px;
         font-size: 10px;
     }
 
@@ -2449,6 +2450,16 @@ html {
         border: 25px solid transparent;
         border-bottom: 25px solid #f1dfff;
         border-left: 25px solid #f1dfff;
+    }
+
+    .revfull-slider-next {
+        right: -36px;
+        top: 50%;
+    }
+    
+    .revfull-slider-prev {
+        left: -36px;
+        top: 50%;
     }
 }
 
