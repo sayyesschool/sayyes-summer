@@ -1750,6 +1750,10 @@ html {
     width: 490px;
 }
 
+.lessons-info__cont img {
+    display: none;
+}
+
 @media (max-width: 1199px) {
     .about-lessons {
         margin-top: 50px;
@@ -1802,6 +1806,13 @@ html {
     .lessons-info__img,
     .lessons-info__cont {
         width: auto;
+    }
+    .lessons-info__img {
+        display: none;
+    }
+    .lessons-info__cont img {
+        display: block;
+        margin-bottom: 15px;
     }
 
     .lessons-info__title {

@@ -999,6 +999,7 @@ $reviews_from_portals = [
                 <li>
                     <div class="lessons-info__cont">
                         <div class="lessons-info__title bold">1. Онлайн-платформа для обучения</div>
+                        <img class="r-size" src="<?= get_image('lesson-img.jpg') ?>" <?= role_image() ?> alt="">
                         <div class="lessons-info__article">
                             Интерактивная комната, разработанная для детей,
                             делает процесс обучения удобным и захватывающим.
@@ -1013,6 +1014,7 @@ $reviews_from_portals = [
                 <li>
                     <div class="lessons-info__cont">
                         <div class="lessons-info__title bold">2. Отчеты об успеваемости ребенка</div>
+                        <img class="r-size" src="<?= get_image('progress-report.jpg') ?>" <?= role_image() ?> alt="">
                         <div class="lessons-info__article">
                             Каждый месяц преподаватель формирует отчет для родителя о пройденном материале и
                             прогрессе в обучении. Вы будете в курсе, каких успехов добился ваш ребенок.
@@ -1025,6 +1027,7 @@ $reviews_from_portals = [
                 <li>
                     <div class="lessons-info__cont">
                         <div class="lessons-info__title bold">3. Онлайн спикинг клубы </div>
+                        <img class="r-size" src="<?= get_image('speaking-club.jpg') ?>" <?= role_image() ?> alt="">
                         <div class="lessons-info__article">
                             Групповые занятия с ровесниками, которые проходят по отдельной программе,
                             погрузят вашего ребенка в англоговорящую среду и улучшат разговорный навык.
@@ -1399,12 +1402,12 @@ $reviews_from_portals = [
                 },
             },
         });
-        teamSlider = new Swiper('.team-slider', {
+        var teamSlider = new Swiper('.team-slider', {
             slidesPerView: 1,
             spaceBetween: 50,
             loop: true,
-            observer: true,
-            observeParents: true,
+            // observer: true,
+            // observeParents: true,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
