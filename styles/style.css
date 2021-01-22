@@ -3419,6 +3419,7 @@ html {
     }
     .accordeon-image-mobile {
         display: block;
+        width: 120px;
     }
     .accordeon-section-row {
         display: block;

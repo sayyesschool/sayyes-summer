@@ -1056,7 +1056,7 @@ $reviews_from_portals = [
                 <div class="accordeon-section-content">
                     <div class="accordeon-section-header">
                         <h2 class="h2">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,<br>руководитель школы SAY&nbsp;YES!</span></span></h2>
-                        <img class="r-size accordeon-image-mobile" src="<?= get_image('accordeon-image-mobile.png') ?>" <?= role_image() ?> alt="">
+                        <img class="r-size accordeon-image-mobile" src="<?= get_image('accordeon-image.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <ul id="accordeon" class="r-list accordeon">
                         <?php foreach ($questions as $item) { ?>
