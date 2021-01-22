@@ -928,7 +928,13 @@ $reviews_from_portals = [
                                         <a class="revfull-slider__link" href="<?= $item['profile'] ?>" target="_blank">
                                             <span>Профиль в</span>
                                             <div class="revfull-slider__social-icon">
-                                                <img class="r-size" src="<?= get_image('inst-min.svg') ?>" <?= role_image() ?> alt="">
+                                                <?php
+                                                $profile_host = parse_url($item['profile'], PHP_URL_HOST);
+                                                $profile_icon = 'inst-min.svg';
+                                                if ($profile_host == 'www.facebook.com' || $profile_host == 'facebook.com') {
+                                                    $profile_icon = 'facebook-icon.svg';
+                                                }?>
+                                                <img width="20" class="r-size" src="<?= get_image($profile_icon) ?>" <?= role_image() ?> alt="">
                                             </div>
                                         </a>
                                     </li>
