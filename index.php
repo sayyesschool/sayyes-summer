@@ -773,21 +773,6 @@ $reviews_from_portals = [
                     Регулярно собираем отзывы <br>и контролируем результат и качество обучения
                 </li>
             </ul>
-
-            <div class="swiper-container r-list team-tabs bold tab-slider">
-                <div class="swiper-wrapper">
-                    <?php
-                    $index = 0;
-                    foreach ($teachers as $teacher) {
-                        $index++
-                    ?>
-                        <div class="swiper-slide">
-                            <button type="button" class="team-tabs__btn" data-tab="#team-<?= $index ?>"><?= $teacher['name'] ?></button>
-                        </div>
-                    <?php } ?>
-                </div>
-            </div>
-
             <div class="team-slider swiper-container">
                 <div class="swiper-wrapper">
                     <?php
@@ -822,22 +807,6 @@ $reviews_from_portals = [
                                     </ul>
                                 </div>
                             </div>
-                            <div class="team-slider__article-mob text-hidden">
-                                <p>
-                                    <?= $teacher['text'] ?>
-                                </p>
-                                <div class="text-show text-show-w">
-                                    <span>Развернуть</span>
-                                </div>
-                            </div>
-                            <!-- <div class="team-slider__bottom">
-                                <div class="video-block video-block_min">
-                                    <img class="r-size" src="<?= get_image('team-video.jpg') ?>" <?= role_image() ?> alt="">
-                                </div>
-                                <div class="team-slider__video-article">
-                                    Смотреть <br>видео-приветствие<br> от преподавателя
-                                </div>
-                            </div> -->
                         </div>
                     <?php } ?>
                 </div>
@@ -852,12 +821,12 @@ $reviews_from_portals = [
             <div class="cont-subtitle semibold">
                 Эффективность нашего обучения подтверждена отзывами и наградами
             </div>
-            
+
             <h2 class="h2 advantages__title">
                 Школа SAY&nbsp;YES! существует в оффлайн формате в Москве и 4 раза становилась победителем премии
                 «Эксперт Года» от SchoolRate
             </h2>
-        
+
             <div class="advantages__top">
                 <ul class="r-list advantage-list">
                     <li>
@@ -1430,50 +1399,22 @@ $reviews_from_portals = [
                 },
             },
         });
-
-        var teamSlider = undefined;
-        var tabSlider = undefined;
-
-        function initSwiper() {
-            var screenWidth = $(window).width();
-            if (screenWidth > 700 && teamSlider == undefined) {
-                if (typeof tabSlider !== 'undefined') {
-                    tabSlider.destroy();
-                }
-                teamSlider = new Swiper('.team-slider', {
-                    slidesPerView: 1,
-                    spaceBetween: 50,
-                    loop: true,
-                    observer: true,
-                    observeParents: true,
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    },
-                    breakpoints: {
-                        1200: {
-                            spaceBetween: 140,
-                        },
-                    },
-                });
-                $('.teamtab').css({
-                    display: 'block'
-                });
-            } else if (screenWidth < 701) {
-                if (typeof teamSlider !== 'undefined') {
-                    teamSlider.destroy();
-                    teamSlider = undefined;
-                }
-                tabSlider = new Swiper('.tab-slider', {
-                    slidesPerView: 3,
-                    spaceBetween: 10,
-                    loop: false,
-                });
-                teamTabMobile();
-            }
-        }
-        initSwiper();
-        $(window).on('resize', initSwiper);
+        teamSlider = new Swiper('.team-slider', {
+            slidesPerView: 1,
+            spaceBetween: 50,
+            loop: true,
+            observer: true,
+            observeParents: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                1200: {
+                    spaceBetween: 140,
+                },
+            },
+        });
 
         $('.text-show').click(function() {
             var $this = $(this);
