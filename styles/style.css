@@ -94,11 +94,11 @@ html {
     }
     .section-bg:before {
         height: 75px;
-        background-size: 375px auto;
+        background-size: 100% auto;
     }
     .section-bg:after {
         height: 75px;
-        background-size: 375px auto;
+        background-size: 100% auto;
     }
 }
 
@@ -436,7 +436,7 @@ html {
         padding-bottom: 100px;
     }
     .hero-list {
-        font-size: inherit;
+        font-size: 13px;
         width: 50%;
     }
     .hero-list li {
@@ -452,7 +452,7 @@ html {
         width: 100%;
     }
     .hero-subtitle {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 10px;
         margin-bottom: 44px;
     }
@@ -462,12 +462,13 @@ html {
         background-position-x: 30px;
     }
     .hero-button {
+        position: relative;
+        width: 280px;
         height: 48px;
-        font-size: 13px;
-        width: 260px;
+        font-size: 14px;
+        font-weight: 600;
         margin: auto;
         margin-top: 44px;
-        position: relative;
         z-index: 10;
     }
     .hero-button img {
@@ -720,8 +721,8 @@ html {
         margin-bottom: 25px;
     }
     .form-main ul li {
-        width: 80%;
-        font-size: 13px;
+        width: 90%;
+        font-size: 14px;
         margin: 0 auto;
         margin-bottom: 15px;
         align-items: center;
@@ -788,8 +789,9 @@ html {
         text-align: center;
     }
     .button-form {
-        font-size: 14px;
         height: 48px;
+        font-size: 14px;
+        font-weight: 600;
     }
 }
 /********************************************/
@@ -866,7 +868,7 @@ html {
         font-size: 14px;
     }
     .cat-card-info {
-        font-size: 13px;
+        font-size: 14px;
         padding-top: 5px;
     }
 }
@@ -933,7 +935,7 @@ html {
         width: 210px;
     }
     .comfort-message {
-        font-size: 10px;
+        font-size: 12px;
     }
     .comfort-message img {
         width: 80px;
@@ -943,7 +945,7 @@ html {
         padding-left: 27px;
     }
     .comfort ul {
-        font-size: 13px;
+        font-size: 14px;
         margin-top: 22px;
         margin-bottom: 35px;
     }
@@ -993,7 +995,7 @@ html {
         margin-bottom: 30px;
     }
     .comfort li {
-        width: 70%;
+        width: 80%;
         margin-bottom: 15px;
     }
     .comfort li img {
@@ -1214,7 +1216,7 @@ html {
         margin-bottom: 50px;
     }
     .cont-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .stydeprograms__title {
@@ -1248,7 +1250,7 @@ html {
     }
 
     .info-list li {
-        font-size: 13px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 
@@ -1773,7 +1775,7 @@ html {
 
     .lessons-info__article {
         width: 320px;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 17px;
     }
 
@@ -1996,12 +1998,12 @@ html {
     }
 
     .advantage-list__title {
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 5px;
     }
 
     .advantage-list__article {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .advantage-list__cont {
@@ -2325,6 +2327,7 @@ html {
     transition: 0.5s;
     height: 146px;
     overflow: hidden;
+    font-style: italic;
 }
 
 .revfull-slider__dialog p.is-active {
@@ -2537,7 +2540,7 @@ html {
     }
 
     .about-progress__article {
-        font-size: 12px;
+        font-size: 13px;
         width: 201px;
         line-height: 20px;
     }
@@ -2979,7 +2982,7 @@ html {
 
     .ourteam__list li {
         padding-top: 68px;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 18px;
     }
 
@@ -3017,13 +3020,13 @@ html {
     }
 
     .team-slider__article {
-        font-size: 11px;
-        line-height: 15px;
-        margin-bottom: 16px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-bottom: 20px;
     }
 
     .team-slider__list {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .team-slider__list li {
@@ -3304,13 +3307,13 @@ html {
         font-size: 17px;
     }
     .price-section-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
     .price-section-card-header {
         font-size: 18px;
     }
     .price-section-card-subheader {
-        font-size: 13px;
+        font-size: 14px;
         margin-bottom: 18px;
     }
     .price-section-card-price {
@@ -3402,7 +3405,7 @@ html {
         margin-bottom: 20px;
     } */
     .accordeon-card-header {
-        font-size: 12px;
+        font-size: 13px;
         padding: 12px 18px 12px 8px;
     }
     .accordeon-card-header img {
@@ -3420,6 +3423,7 @@ html {
     .accordeon-image-mobile {
         display: block;
         width: 120px;
+        height: 185px;
     }
     .accordeon-section-row {
         display: block;
@@ -3439,8 +3443,12 @@ html {
     }
     .accordeon-section-header h2 span {
         display: block;
-        font-size: 12px;
+        font-size: 13px;
         margin-top: 10px;
+    }
+    .accordeon-card-content {
+        font-size: 13px;
+        line-height: 1.4;
     }
 }
 
