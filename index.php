@@ -3,6 +3,10 @@ function get_image($name)
 {
     return 'https://static.sayes.ru/images/kids/' . $name;
 }
+function get_youtube_image($id)
+{
+    return 'https://i3.ytimg.com/vi/'.$id.'/mqdefault.jpg';
+}
 function role_image()
 {
     return 'aria-hidden="true" aria-role="presentation" draggable="false"';
@@ -645,7 +649,7 @@ $reviews_from_portals = [
             </div>
             <div class="comfort-video">
                 <a data-fancybox data-width="640" data-height="360" target="_blank" href="https://youtu.be/T_v4tBsnD4c" class="video-block">
-                    <img src="<?= get_image('video-comfort.jpg') ?>" <?= role_image() ?> alt="">
+                    <img src="<?= get_youtube_image('T_v4tBsnD4c') ?>" <?= role_image() ?> alt="">
                 </a>
                 <button class="r-button button-accent button-form js-button" type="button">Записаться на бесплатный урок</button>
             </div>
@@ -675,20 +679,20 @@ $reviews_from_portals = [
                     </div>
                     <div class="programs-content__right">
                         <div class="programs-content__title bold">Особенности обучения:</div>
-                        <ul class="r-list info-list bold">
+                        <ul class="r-list info-list">
                             <li>Знакомимся с основами языка</li>
                             <li>Влюбляем в английский</li>
                             <li>Начинаем говорить, читать и писать</li>
                             <li>Готовимся к школьной программе</li>
                         </ul>
                         <div class="programs-content__title bold">Результаты обучения:</div>
-                        <ul class="r-list info-list bold">
+                        <ul class="r-list info-list">
                             <li>Воспринимает на слух английскую речь</li>
                             <li>Уверенно рассказывает о себе и любимых вещах </li>
                             <li>Может составлять простые предложения</li>
                             <li>Знает более 100 новых слов и выражений</li>
                         </ul>
-                        <button type="button" class="r-button button-accent programs-content__btn js-button">Записаться на бесплатный урок</button>
+                        <button type="button" class="r-button button-accent button-form programs-content__btn js-button">Записаться на бесплатный урок</button>
                     </div>
                 </div>
                 <div class="programs-content__item" id="tab2">
@@ -702,20 +706,20 @@ $reviews_from_portals = [
                     </div>
                     <div class="programs-content__right">
                         <div class="programs-content__title bold">Особенности обучения:</div>
-                        <ul class="r-list info-list bold">
+                        <ul class="r-list info-list">
                             <li>Повышаем успеваемость в школе</li>
                             <li>Концентрируемся на чистоте грамматики</li>
                             <li>Расширяем словарный запас и много говорим</li>
                             <li>Системно готовимся к ОГЭ</li>
                         </ul>
                         <div class="programs-content__title bold">Результаты обучения:</div>
-                        <ul class="r-list info-list bold">
+                        <ul class="r-list info-list">
                             <li>Владеет 6 грамматическими временами</li>
                             <li>Поддерживает беседы на повседневные темы</li>
                             <li>Сочиняет и рассказывает истории</li>
                             <li>Получает высокий балл на школьных экзаменах</li>
                         </ul>
-                        <button type="button" class="r-button button-accent programs-content__btn js-button">Записаться на бесплатный урок</button>
+                        <button type="button" class="r-button button-accent button-form programs-content__btn js-button">Записаться на бесплатный урок</button>
                     </div>
                 </div>
                 <div class="programs-content__item" id="tab3">
@@ -729,20 +733,20 @@ $reviews_from_portals = [
                     </div>
                     <div class="programs-content__right">
                         <div class="programs-content__title bold">Особенности обучения:</div>
-                        <ul class="r-list info-list bold">
+                        <ul class="r-list info-list">
                             <li>Развиваем разговорный навык</li>
                             <li>Улучшаем произношение и понимание на слух</li>
                             <li>Закрываем пробелы в знаниях языка</li>
                             <li>Усиленно готовимся к ЕГЭ</li>
                         </ul>
                         <div class="programs-content__title bold">Результаты обучения:</div>
-                        <ul class="r-list info-list bold">
+                        <ul class="r-list info-list">
                             <li>Владеет всеми грамматическими временами</li>
                             <li>Может свободно общаться с носителем языка</li>
                             <li>Может читать неадаптированную литературу</li>
                             <li>Получает высокий балл на выпускном экзамене</li>
                         </ul>
-                        <button type="button" class="r-button button-accent programs-content__btn js-button">Записаться на бесплатный урок</button>
+                        <button type="button" class="r-button button-accent button-form programs-content__btn js-button">Записаться на бесплатный урок</button>
                     </div>
                 </div>
             </div>
@@ -882,7 +886,7 @@ $reviews_from_portals = [
                 </div>
             </div>
             <div class="advantages__bottom">
-                <button type="button" class="r-button button-accent adv-btn js-button">Записаться на бесплатный урок</button>
+                <button type="button" class="r-button button-accent button-form adv-btn js-button">Записаться на бесплатный урок</button>
             </div>
         </div>
     </div>
@@ -986,13 +990,13 @@ $reviews_from_portals = [
                     <div class="price-section-card-header">25 минут</div>
                     <div class="price-section-card-subheader">рекомендуем от 5 лет</div>
                     <div class="price-section-card-price">от 500 руб/занятие</div>
-                    <button class="r-button button-accent button-form js-button" type="button">Записаться</button>
+                    <button class="r-button button-accent button-form js-button" type="button">Узнать подробнее</button>
                 </li>
                 <li class="price-section-card">
                     <div class="price-section-card-header">50 минут</div>
                     <div class="price-section-card-subheader">рекомендуем от 7 лет</div>
                     <div class="price-section-card-price">от 815 руб/занятие</div>
-                    <button class="r-button button-accent button-form js-button" type="button">Записаться</button>
+                    <button class="r-button button-accent button-form js-button" type="button">Узнать подробнее</button>
                 </li>
             </ul>
         </div>
