@@ -572,7 +572,7 @@ include './includes/data.php';
                 <li class="price-section-card">
                     <div class="price-section-card-header">25 минут</div>
                     <div class="price-section-card-subheader">рекомендуем от 5 лет</div>
-                    <div class="price-section-card-price">от 500 руб/занятие</div>
+                    <div class="price-section-card-price">от 550 руб/занятие</div>
                     <button class="r-button button-accent button-form js-button" type="button">Узнать подробнее</button>
                 </li>
                 <li class="price-section-card">
