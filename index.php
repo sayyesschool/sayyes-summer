@@ -93,7 +93,7 @@ include './includes/data.php';
         <div class="container container-first">
             <div class="hero">
                 <h1>Индивидуальные онлайн-уроки английского для детей 5-16 лет</h1>
-                <p class="hero-subtitle text-color-yellow">От 500 руб за занятие</p>
+                <p class="hero-subtitle text-color-yellow">От 550 руб за занятие</p>
                 <ul class="r-list hero-list">
                     <li><img src="<?= get_image('list-icon.svg') ?>" <?= role_image() ?> alt=""><span>Обучаем онлайн в <span class="text-color-yellow">удобное вам время</span></li>
                     <li><img src="<?= get_image('list-icon.svg') ?>" <?= role_image() ?> alt=""><span>Захватывающие уроки по <span class="text-color-yellow">25</span> или <span class="text-color-yellow">50 минут<span></span></li>
