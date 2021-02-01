@@ -76,12 +76,12 @@ include './includes/data.php';
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="<?= $info['fb'] ?>">
+                                <a class="facebook-button" target="_blank" href="<?= $info['fb'] ?>">
                                     <img <?= role_image() ?> src="<?= get_image('facebook.svg') ?>" alt="">
                                 </a>
                             </li>
                             <li>
-                                <a target="_blank" href="<?= $info['in'] ?>">
+                                <a class="instagram-button" target="_blank" href="<?= $info['in'] ?>">
                                     <img <?= role_image() ?> src="<?= get_image('instagram.svg') ?>" alt="">
                                 </a>
                             </li>
@@ -722,7 +722,7 @@ include './includes/data.php';
                         <a class="recall" href="<?= get_tel_for_href($info['tel']) ?>" target="_blank"><?= $info['tel'] ?></a>
                     </li>
                     <li>
-                        <a class="whatsup-link bold" href="<?= $info['whatsapp'] ?>" target="_blank">Написать в WhatsApp</a>
+                        <a class="whatsup-link whatsapp-button bold" href="<?= $info['whatsapp'] ?>" target="_blank">Написать в WhatsApp</a>
                     </li>
                 </ul>
             </div>
@@ -738,7 +738,7 @@ include './includes/data.php';
                         <div class="social-screen">
                             <img class="r-size" src="<?= get_image('phone-2.png') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <a class="subscription-social subscription-social_facebook" href="<?= $info['fb'] ?>">Подписаться в Facebook</a>
+                        <a class="subscription-social subscription-social_facebook facebook-button" href="<?= $info['fb'] ?>">Подписаться в Facebook</a>
                     </li>
                 </ul>
             </div>
@@ -872,9 +872,9 @@ include './includes/data.php';
                     phone: phone,
                 };
 
-                ym(YANDEX_METRIKA_COUNTER, 'reachGoal', 'zayavka');
-                gtag('event', 'click', {
-                    event_category: 'zayavka'
+                ym(YANDEX_METRIKA_COUNTER, 'reachGoal', 'lead');
+                gtag('event', 'lead', {
+                    event_category: 'form'
                 });
                 fbq('track', 'Lead');
 
@@ -894,8 +894,18 @@ include './includes/data.php';
         });
 
         $('.whatsapp-button').click(function() {
-            ym(YANDEX_METRIKA_COUNTER, 'reachGoal', 'click');
-            gtag('event', 'click', {
+            ym(YANDEX_METRIKA_COUNTER, 'reachGoal', 'wa');
+            gtag('event', 'wa', {
+                event_category: 'click'
+            });
+            fbq('track', 'Contact');
+
+            return true;
+        });
+
+        $('.facebook-button').click(function() {
+            ym(YANDEX_METRIKA_COUNTER, 'reachGoal', 'fb');
+            gtag('event', 'fb', {
                 event_category: 'click'
             });
             fbq('track', 'Contact');
@@ -904,7 +914,19 @@ include './includes/data.php';
         });
 
         $('.instagram-button').click(function() {
+            ym(YANDEX_METRIKA_COUNTER, 'reachGoal', 'inst');
+            gtag('event', 'inst', {
+                event_category: 'click'
+            });
             fbq('track', 'AddToWishlist_insta');
+
+            return true;
+        });
+
+        $('.tel-call-tel, .recall').click(function() {
+            gtag('event', 'tel', {
+                event_category: 'click'
+            });
 
             return true;
         });
