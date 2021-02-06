@@ -876,7 +876,7 @@ include './includes/data.php';
                 gtag('event', 'lead', {
                     event_category: 'form'
                 });
-                fbq('track', 'Lead');
+                fbq('track', 'Lead_kids');
 
                 crm.addStudyRequest(data);
 
