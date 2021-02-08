@@ -19,9 +19,10 @@ include './includes/data.php';
     <meta name="msapplication-TileImage" content="https://sayes.ru/wp-content/uploads/2018/09/cropped-favicon-270x270.png">
 
     <?php
-    include './includes/yandex-metrika.php';
-    include './includes/google-analytics.php';
-    include './includes/facebook-pixel.php';
+        include './includes/yandex-metrika.php';
+        include './includes/google-analytics.php';
+        include './includes/facebook-pixel.php';
+        include './includes/call-tracking.php';
     ?>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
