@@ -2,7 +2,7 @@
 $info = [
     'tel' => '+7 499 650-53-47',
     'whatsapp' => 'https://api.whatsapp.com/send?phone=79267371137',
-    'fb' => 'https://www.facebook.com/YesISpeakEnglishSchool',
+    'fb' => 'https://www.facebook.com/SayYesEnglishSchool',
     'in' => 'https://www.instagram.com/sayyes2english/',
     'email' => 'info@sayes.ru',
     'addesses' => [
