@@ -1406,8 +1406,9 @@ html {
     left: 0px;
     transform: translateY(-50%);
     width: 18px;
-    height: 13px;
+    height: 18px;
     background: url('https://static.sayes.ru/images/kids/whatsapp.svg') no-repeat center;
+    background-size: contain;
 }
 
 .footer__title {
