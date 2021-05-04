@@ -758,6 +758,9 @@ include './includes/data.php';
                         <li>
                             <a target="_blank" class="email-link" href="<?= get_email_for_href($info['email']) ?>"><?= $info['email'] ?></a>
                         </li>
+                        <li>
+                            <a target="_blank" class="whatsapp-link" href="<?= $info['whatsapp'] ?>">Написать в WhatsApp</a>
+                        </li>
                         <?php foreach ($info['addesses'] as $address) { ?>
                             <li>
                                 <span class="adress-info"><?= $address ?></span>

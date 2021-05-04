@@ -1392,6 +1392,24 @@ html {
     background: url('https://static.sayes.ru/images/kids/placeholder.svg') no-repeat center;
 }
 
+.whatsapp-link {
+    color: white;
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+}
+
+.whatsapp-link:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 13px;
+    background: url('https://static.sayes.ru/images/kids/whatsapp.svg') no-repeat center;
+}
+
 .footer__title {
     font-size: 20px;
     margin-bottom: 13px;
