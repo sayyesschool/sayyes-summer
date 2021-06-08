@@ -277,7 +277,7 @@ html {
     padding-bottom: 170px;
 }
 .hero h1 {
-    width: 810px;
+    width: 840px;
     margin: 0;
     font-weight: 800;
     font-size: 50px;
@@ -287,6 +287,18 @@ html {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 37px;
+}
+.hero-description {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    width: 680px;
+}
+.hero-description strong {
+    color: var(--color-yellow);
+    background-color: var(--color-violet);
+    padding: 0 8px;
+    border-radius: 4px;
 }
 .hero-list {
     font-weight: 400;
@@ -307,10 +319,10 @@ html {
 }
 .hero-button {
     height: 72px;
-    width: 460px;
     font-size: 22px;
     white-space: nowrap;
     margin-top: 60px;
+    padding-right: 2rem;
 }
 .hero-button-inner {
     display: flex;
@@ -320,8 +332,9 @@ html {
 .hero-male {
     display: block;
     position: absolute;
-    right: -311px;
+    right: -221px;
     bottom: 144px;
+    width: 640px;
 }
 @media (max-width: 1199px) {
     .header-main {
@@ -550,6 +563,21 @@ html {
 }
 .form-main ul li:last-child {
     padding-right: 0;
+}
+.form-main .form-offer {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--color-violet);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.form-main .cat-dialog {
+    position: absolute;
+    top: 124px;
+    right: 56px;
+}
+.form-main .cat-dialog img {
+    width: 240px;
 }
 .input {
     color: inherit;
@@ -941,7 +969,7 @@ html {
 }
 .comfort-video {
     margin-left: 100px;
-    min-width: 230px;
+    max-width: 343px;
 }
 .comfort-video img {
     border-radius: 5px;
@@ -1095,32 +1123,10 @@ html {
     margin-bottom: 29px;
 }
 
-.programs-tabs {
+.programs-content {
     display: flex;
     justify-content: center;
-    margin-bottom: 86px;
-}
-
-.programs-tabs__item {
-    width: 264px;
-    height: 72px;
-    background: #f1dfff;
-    border-radius: 90px;
-    font-size: 24px;
-    color: var(--color-violet);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.programs-tabs .programs-tabs__item:not(:last-child) {
-    margin-right: 35px;
-}
-
-.programs-tabs__item.is-active {
-    background: var(--color-violet);
-    color: white;
+    padding-left: 50px;
 }
 
 .programs-content__left {
@@ -1133,12 +1139,6 @@ html {
 .programs-content__right {
     padding-left: 40px;
     padding-top: 50px;
-}
-
-.programs-content__item {
-    display: flex;
-    justify-content: center;
-    padding-left: 50px;
 }
 
 .programs-content__title {
@@ -2720,9 +2720,10 @@ html {
 
 .modal__article {
     text-align: center;
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 63px;
+    line-height: 40px;
+    margin-bottom: 36px;
+    font-weight: bold;
+    font-size: 1.9rem;
 }
 
 .modal__list li {

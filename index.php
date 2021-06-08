@@ -95,19 +95,15 @@ include './includes/data.php';
             <div class="hero">
                 <h1>Индивидуальные онлайн-уроки английского для детей 5-16 лет</h1>
                 <p class="hero-subtitle text-color-yellow">От 550 руб за занятие</p>
-                <ul class="r-list hero-list">
-                    <li><img src="<?= get_image('list-icon.svg') ?>" <?= role_image() ?> alt=""><span>Обучаем онлайн в <span class="text-color-yellow">удобное вам время</span></li>
-                    <li><img src="<?= get_image('list-icon.svg') ?>" <?= role_image() ?> alt=""><span>Захватывающие уроки по <span class="text-color-yellow">25</span> или <span class="text-color-yellow">50 минут<span></span></li>
-                    <li><img src="<?= get_image('list-icon.svg') ?>" <?= role_image() ?> alt=""><span><span class="text-color-yellow">Сертифицированные преподаватели</span> с опытом работы с детьми</span></li>
-                </ul>
+                <p class="hero-description"><strong>Только три дня!</strong> Оставьте заявку на пробный урок онлайн с топовым преподавателем и получите <strong class="text-color-yellow">две недели обучения в подарок!</strong></p>
                 <button class="hero-button r-button button-accent js-button" type="button">
                     <span class="hero-button-inner">
                         <img src="<?= get_image('flag-uk.png') ?>" <?= role_image() ?> alt="">
-                        <span>Записаться на бесплатный урок</span>
+                        <span>Оставить заявку на пробный урок</span>
                     </span>
                 </button>
                 <div class="first-section-mobile-circle"></div>
-                <img class="hero-male" src="<?= get_image('male.png') ?>" <?= role_image() ?> alt="">
+                <img class="hero-male" src="<?= get_image('hero.png') ?>" <?= role_image() ?> alt="">
             </div>
         </div>
     </div>
@@ -136,10 +132,13 @@ include './includes/data.php';
                         <span>Оцените, нравится ли вам преподаватель</span>
                     </li>
                 </ul>
+
                 <div class="cat-dialog">
-                    <img src="<?= get_image('cat.png') ?>" <?= role_image() ?> alt="">
-                    <div class="dialog _mobile_position-left">Урок проходит на онлайн-платформе в удобное вам время</div>
+                    <img src="<?= get_image('gift.png') ?>" <?= role_image() ?> alt="">
                 </div>
+
+                <p style="form-offer">Запишитесь на пробный урок и получите ДВЕ НЕДЕЛИ ОБУЧЕНИЯ в подарок!</p>
+
                 <div class="form-main-row">
                     <div class="form-main-col _has_input">
                         <input type="text" class="input" placeholder="Имя" name="name" required>
@@ -149,7 +148,7 @@ include './includes/data.php';
                     </div>
                     <div class="form-main-col _has_button">
                         <button type="submit" class="r-button button-accent button-form">
-                            <span>Записаться на бесплатный урок</span>
+                            <span>Записаться на пробный урок</span>
                         </button>
                     </div>
                 </div>
@@ -159,15 +158,15 @@ include './includes/data.php';
 
     <div class="section-third">
         <div class="container">
-            <h2 class="h2">Почему дети начинают разговаривать на английском, любить язык и получать хорошие отметки в школе, обучаясь в SAY&nbsp;YES?</h2>
+            <h2 class="h2">Почему вам стоит выбрать онлайн летнюю школу для детей и подростков SAY&nbsp;YES?</h2>
             <ul class="r-list cat-cards">
                 <li class="cat-card">
                     <div>
                         <img src="<?= get_image('cat-3-1.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <div class="cat-card-info">
-                        <div class="cat-card-header">Уроки, построенные на интересах ребенка</div>
-                        <div class="cat-card-desc">Включаем в программу обсуждение любимых игр, мультфильмов и книг. Даже непоседе не удастся заскучать! </div>
+                        <div class="cat-card-header">Подготовка к школе</div>
+                        <div class="cat-card-desc">Возможность подготовить ребенка к изучению языка, адаптировать к занятиям в общеобразовательной школе и с ранних лет увлечь его иностранной речью.</div>
                     </div>
                 </li>
                 <li class="cat-card">
@@ -176,7 +175,7 @@ include './includes/data.php';
                     </div>
                     <div class="cat-card-info">
                         <div class="cat-card-header">Разговорный онлайн-клуб с носителями языка </div>
-                        <div class="cat-card-desc">Организовываем дополнительную практику “живого” языка. Общение на английском с ровесниками и море позитивных эмоций.</div>
+                        <div class="cat-card-desc">Разговорные клубы с носителями языка БЕСПЛАТНО только этим летом! Ваш ребенок гарантированно преодолеет разговорный барьер к новому учебному году.</div>
                     </div>
                 </li>
                 <li class="cat-card">
@@ -196,8 +195,8 @@ include './includes/data.php';
                         <img src="<?= get_image('cat-3-4.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <div class="cat-card-info">
-                        <div class="cat-card-header">Программа для конкретных целей</div>
-                        <div class="cat-card-desc">Повышение успеваемости в школе? Помощь с домашкой? Нужно “разговорить” ребенка или “почистить” грамматику? Высокий балл на ЕГЭ? Работаем над вашей целью до получения результата. </div>
+                        <div class="cat-card-header">Нескучная летняя программа</div>
+                        <div class="cat-card-desc">Специальные разработанные летние программы с учебными материалами с героями любимых мультфильмов для самых маленьких, National Geographic и TED Talks для подростков.</div>
                     </div>
                 </li>
             </ul>
@@ -208,25 +207,25 @@ include './includes/data.php';
         <div class="section-bg _comfort" style="background-image: url('<?= get_image('fourth.png') ?>')"></div>
         <div class="comfort container">
             <div class="comfort-info">
-                <h2 class="h2 text-color-yellow">Занятия онлайн — это удобно!</h2>
+                <h2 class="h2 text-color-yellow">Занятия онлайн летом — это удобно!</h2>
                 <ul class="r-list semibold">
                     <li>
                         <div>
                             <img width="54" height="54" src="<?= get_image('check-mark.svg') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <div>Обучение в комфортной и безопасной для вашего ребенка обстановке.</div>
+                        <div>Обучение в комфортной для вашего ребенка обстановке.</div>
                     </li>
                     <li>
                         <div>
                             <img width="54" height="54" src="<?= get_image('check-mark.svg') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <div>Экономия времени на поездках к репетитору или в школу.</div>
+                        <div>Занимайтесь откуда угодно - из дома или с дачи.</div>
                     </li>
                 </ul>
                 <div class="comfort-info-footer">
                     <div class="comfort-info-row">
                         <div class="comfort-info-col">
-                            <button class="r-button button-accent button-form js-button" type="button">Записаться на бесплатный урок</button>
+                            <button class="r-button button-accent button-form js-button" type="button">Оставить заявку и получить подарок</button>
                         </div>
                         <div class="comfort-info-col">
                             <p class="comfort-message">
@@ -250,96 +249,34 @@ include './includes/data.php';
 
     <div class="section-six">
         <div class="stydeprograms container">
-            <div class="cont-subtitle semibold">
-                В зависимости от возраста и уровня ребенка, вы можете выбрать
-            </div>
-            <h2 class="stydeprograms__title h2">3 программы обучения, направленные на получение конкретного результата</h2>
-            <div class="programs-tabs">
-                <div class="programs-tabs__item bold" data-tab="#tab1">5-7 лет</div>
-                <div class="programs-tabs__item bold" data-tab="#tab2">8-13 лет</div>
-                <div class="programs-tabs__item bold" data-tab="#tab3">14-16 лет</div>
-            </div>
+            <h2 class="stydeprograms__title h2">Почему мы рекомендуем практиковать английский летом?</h2>
+
             <div class="programs-content">
-                <div class="programs-content__item" id="tab1">
-                    <div class="programs-content__left">
-                        <div class="programs-content__img">
-                            <img class="r-size" src="<?= get_image('little-girl.png') ?>" <?= role_image() ?> alt="">
-                        </div>
-                        <div class="dialog programs-content__dialog _mobile_position-left">
-                            Каждый месяц родителям формируется отчет о результатах и пройденном материале
-                        </div>
+                <div class="programs-content__left">
+                    <div class="programs-content__img">
+                        <img class="r-size" src="<?= get_image('little-girl-2.png') ?>" <?= role_image() ?> alt="">
                     </div>
-                    <div class="programs-content__right">
-                        <div class="programs-content__title bold">Особенности обучения:</div>
-                        <ul class="r-list info-list">
-                            <li>Знакомимся с основами языка</li>
-                            <li>Влюбляем в английский</li>
-                            <li>Начинаем говорить, читать и писать</li>
-                            <li>Готовимся к школьной программе</li>
-                        </ul>
-                        <div class="programs-content__title bold">Результаты обучения:</div>
-                        <ul class="r-list info-list">
-                            <li>Воспринимает на слух английскую речь</li>
-                            <li>Уверенно рассказывает о себе и любимых вещах </li>
-                            <li>Может составлять простые предложения</li>
-                            <li>Знает более 100 новых слов и выражений</li>
-                        </ul>
-                        <button type="button" class="r-button button-accent button-form programs-content__btn js-button">Записаться на бесплатный урок</button>
+                    <div class="dialog programs-content__dialog">
+                        Каждый месяц родителям формируется отчет о результатах и пройденном материале
                     </div>
                 </div>
-                <div class="programs-content__item" id="tab2">
-                    <div class="programs-content__left">
-                        <div class="programs-content__img">
-                            <img class="r-size" src="<?= get_image('little-girl-2.png') ?>" <?= role_image() ?> alt="">
-                        </div>
-                        <div class="dialog programs-content__dialog">
-                            Каждый месяц родителям формируется отчет о результатах и пройденном материале
-                        </div>
-                    </div>
-                    <div class="programs-content__right">
-                        <div class="programs-content__title bold">Особенности обучения:</div>
-                        <ul class="r-list info-list">
-                            <li>Повышаем успеваемость в школе</li>
-                            <li>Концентрируемся на чистоте грамматики</li>
-                            <li>Расширяем словарный запас и много говорим</li>
-                            <li>Системно готовимся к ОГЭ</li>
-                        </ul>
-                        <div class="programs-content__title bold">Результаты обучения:</div>
-                        <ul class="r-list info-list">
-                            <li>Владеет 6 грамматическими временами</li>
-                            <li>Поддерживает беседы на повседневные темы</li>
-                            <li>Сочиняет и рассказывает истории</li>
-                            <li>Получает высокий балл на школьных экзаменах</li>
-                        </ul>
-                        <button type="button" class="r-button button-accent button-form programs-content__btn js-button">Записаться на бесплатный урок</button>
-                    </div>
-                </div>
-                <div class="programs-content__item" id="tab3">
-                    <div class="programs-content__left">
-                        <div class="programs-content__img">
-                            <img class="r-size" src="<?= get_image('little-girl-3.png') ?>" <?= role_image() ?> alt="">
-                        </div>
-                        <div class="dialog programs-content__dialog">
-                            Каждый месяц родителям формируется отчет о результатах и пройденном материале
-                        </div>
-                    </div>
-                    <div class="programs-content__right">
-                        <div class="programs-content__title bold">Особенности обучения:</div>
-                        <ul class="r-list info-list">
-                            <li>Развиваем разговорный навык</li>
-                            <li>Улучшаем произношение и понимание на слух</li>
-                            <li>Закрываем пробелы в знаниях языка</li>
-                            <li>Усиленно готовимся к ЕГЭ</li>
-                        </ul>
-                        <div class="programs-content__title bold">Результаты обучения:</div>
-                        <ul class="r-list info-list">
-                            <li>Владеет всеми грамматическими временами</li>
-                            <li>Может свободно общаться с носителем языка</li>
-                            <li>Может читать неадаптированную литературу</li>
-                            <li>Получает высокий балл на выпускном экзамене</li>
-                        </ul>
-                        <button type="button" class="r-button button-accent button-form programs-content__btn js-button">Записаться на бесплатный урок</button>
-                    </div>
+
+                <div class="programs-content__right">
+                    <div class="programs-content__title bold">1. Это эффективно для прогресса в английском</div>
+                    <p style="
+                    margin-top: 0;
+                ">За три месяца каникул дети могут забыть почти 1/4 пройденного за год материала. Если поддерживать уровень английского в течение лета, осенью ребенок не будет тратить 1-2 месяца чтобы вернуться на прежний уровень владения языком.</p>
+                                        
+                    <div class="programs-content__title bold">2. Меньше стресса в начале учебного года</div>
+                    <p>В начале учебного года сложно возвращаться одновременно и к школе, и к дополнительным занятиям. Попытка включить занятия английским может вызвать еще больший стресс. Этого не случится, если ребенок продолжал занятия летом.</p>
+
+                    <div class="programs-content__title bold">3. Час свободного времени для родителей</div>
+                    <p>Летом у детей больше свободного времени (точнее, оно все свободное:) и нет проблемы найти 25-50 минут на занятие английским. Признаться честно, для многих родителей это отличное решение вопроса “чем занять детей во время каникул”.</p>
+
+                    <div class="programs-content__title bold">4. Возможность сделать прорыв в английском</div>
+                    <p>Для тех, кто не мог найти время плотнее заняться английским во время учебного года, летние каникулы – отличная возможность сделать настоящий рывок! Занятиям ничего не мешает, дети больше отдыхают и лучше запоминают информацию.</p>
+                                        
+                    <button type="button" class="r-button button-accent button-form programs-content__btn js-button">Оставить заявку и получить подарок</button>
                 </div>
             </div>
         </div>
@@ -665,14 +602,14 @@ include './includes/data.php';
 
     <div class="form-section">
         <div class="container">
-            <form class="form-main js-form">
+        <form class="form-main js-form">
                 <h2 class="h2 form-main-header">Узнайте уровень английского у вашего ребенка на пробном бесплатном уроке, а также</h2>
                 <ul class="r-list">
                     <li>
                         <div>
                             <div class="circle">1</div>
                         </div>
-                        <span>Познакомитесь с методикой и программой обучения</span>
+                        <span>Познакомьтесь с методикой и программой обучения</span>
                     </li>
                     <li>
                         <div>
@@ -687,11 +624,13 @@ include './includes/data.php';
                         <span>Оцените, нравится ли вам преподаватель</span>
                     </li>
                 </ul>
-                <img class="cat-education" src="<?= get_image('cat-education.png') ?>" <?= role_image() ?> alt="">
+
                 <div class="cat-dialog">
-                    <img src="<?= get_image('cat.png') ?>" <?= role_image() ?> alt="">
-                    <div class="dialog _mobile_position-left">Урок проходит на онлайн-платформе в удобное вам время</div>
+                    <img src="<?= get_image('gift.png') ?>" <?= role_image() ?> alt="">
                 </div>
+
+                <p style="form-offer">Запишитесь на пробный урок и получите ДВЕ НЕДЕЛИ ОБУЧЕНИЯ в подарок!</p>
+
                 <div class="form-main-row">
                     <div class="form-main-col _has_input">
                         <input type="text" class="input" placeholder="Имя" name="name" required>
@@ -701,7 +640,7 @@ include './includes/data.php';
                     </div>
                     <div class="form-main-col _has_button">
                         <button type="submit" class="r-button button-accent button-form">
-                            <span>Записаться на бесплатный урок</span>
+                            <span>Записаться на пробный урок</span>
                         </button>
                     </div>
                 </div>
@@ -798,9 +737,9 @@ include './includes/data.php';
             <div class="modal modal_loan">
                 <form class="modal__inner form-loan js-form">
                     <button id="js-close-modal-form" class="modal-close" type="button"></button>
-                    <div class="modal__title bold">Оставьте заявку</div>
+                    <div class="modal__title bold">Оставьте заявку на пробный урок</div>
                     <div class="modal__article">
-                        В течение 30 минут с вами свяжется менеджер и запишет вас на бесплатный урок, в удобное для вас время
+                        и получите ДВЕ НЕДЕЛИ ОБУЧЕНИЯ в подарок!
                     </div>
                     <ul class="r-list modal__list">
                         <li>
