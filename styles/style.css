@@ -377,6 +377,11 @@ html {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .hero-description {
+        font-size: 23px;
+        line-height: 38px;
+        width: 420px;
+    }
     .hero-list {
         font-size: 19px;
         line-height: 26px;
@@ -578,9 +583,10 @@ html {
     position: absolute;
     top: 124px;
     right: 40px;
+    width: 240px;
 }
 .form-main .cat-dialog img {
-    width: 240px;
+    width: 100%;
 }
 .input {
     color: inherit;
@@ -635,6 +641,11 @@ html {
     .form-main .button-form {
         font-size: 11px;
         height: 36px;
+    }
+    .form-main .cat-dialog {
+        top: 72px;
+        right: 24px;
+        width: 128px;
     }
     .input {
         font-size: 12px;
@@ -1109,30 +1120,26 @@ html {
     }
 }
 
-/********************************************/
+
+/** Section six **/
+
 .section-six {
     margin-top: 91px;
     margin-bottom: 34px;
 }
 
-.cont-subtitle {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 14px;
-}
-
-.stydeprograms__title {
+.section-six .section-title {
     text-align: center;
     margin-bottom: 29px;
 }
 
-.programs-content {
+.section-six .section-content {
     display: flex;
     justify-content: center;
     padding-left: 50px;
 }
 
-.programs-content__left {
+.section-six .section-content__left {
     min-width: 300px;
     display: flex;
     flex-direction: column;
@@ -1140,118 +1147,60 @@ html {
     padding-top: 4rem;
 }
 
-.programs-content__right {
+.section-six .section-content__right {
     padding-left: 40px;
     padding-top: 50px;
 }
 
-.programs-content__title {
+.section-six .section-content h3 {
     font-size: 24px;
     color: var(--color-violet);
+    margin-top: 0;
     margin-bottom: .5rem;
 }
 
-.programs-content__text {
-    
+.section-six .section-content p {
+    margin-bottom: 2rem;
 }
 
-.info-list {
-    margin-bottom: 29px;
-}
-
-.info-list li {
-    color: var(--color-dark);
-    font-size: 20px;
-    margin-bottom: 6px;
-    position: relative;
-    padding-left: 30px;
-}
-
-.info-list li:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0px;
-    transform: translateY(-50%);
-    width: 21px;
-    height: 21px;
-    background: url('https://static.sayes.ru/images/kids/tooltip-min-2.svg') no-repeat center;
-    background-size: contain;
-}
-
-.programs-content__btn {
-    display: inline-block;
+.section-six .button-form {
     width: auto;
     height: 60px;
+    display: inline-flex;
     justify-content: center;
     color: var(--color-dark);
     font-size: 18px;
     margin-top: 64px;
 }
 
-.programs-content__img {
-
-}
-
 @media (max-width: 1199px) {
-    .cont-subtitle {
-        font-size: 16px;
-        margin-bottom: 9px;
+    .section-six {
+        margin-top: 72px;
+        margin-bottom: 36px;
     }
 
-    .stydeprograms__title {
+    .section-six .section-title {
         margin-bottom: 49px;
     }
 
-    .programs-tabs {
-        margin-bottom: 77px;
+    .section-six .section-content__left {
+        display: none;
     }
 
-    .programs-content__left {
-        width: 233px;
+    .section-six .section-content__right {
+        max-width: 560px;
+        padding-top: 0;
     }
 
-    .programs-content__right {
-        width: calc(100% - 233px);
-        padding-top: 10px;
-    }
-
-    .programs-content__title {
+    .section-six .section-content h3 {
         font-size: 18px;
         margin-bottom: 14px;
     }
 
-    .info-list li {
-        font-size: 15px;
-        margin-bottom: 7px;
-    }
-
-    .programs-tabs__item {
-        width: 200px;
-        height: 50px;
-        font-size: 20px;
-    }
-
-    .programs-content__btn {
-        width: 270px;
+    .section-six .button-form {
         height: 48px;
-        margin-top: 37px;
+        margin-top: 36px;
         font-size: 14px;
-    }
-
-    .programs-content__item {
-        padding-left: 20px;
-    }
-
-    .programs-content__dialog {
-        width: 148px;
-    }
-    .info-list li:after {
-        width: 17px;
-        height: 17px;
-    }
-    .info-list li {
-        padding-left: 22px;
     }
 }
 
@@ -1260,73 +1209,30 @@ html {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .cont-subtitle {
-        font-size: 14px;
-    }
 
-    .stydeprograms__title {
+    .section-six .section-title {
         margin-bottom: 25px;
     }
 
-    .programs-tabs {
-        margin-bottom: 40px;
+    .section-six .section-content__left {
+        display: none;
     }
 
-    .programs-content__left {
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .programs-content__img {
-        width: 82px;
-        margin-right: 10px;
-        margin-bottom: 0;
-    }
-
-    .programs-content__right {
+    .section-six .section-content__right {
         width: 100%;
         padding-left: 0;
     }
 
-    .programs-content__title {
+    .section-six .section-content h3 {
         font-size: 15px;
         margin-bottom: 20px;
     }
 
-    .info-list li {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-
-    .programs-tabs__item {
-        width: 200px;
-        height: 50px;
-        font-size: 12px;
-    }
-
-    .programs-content__btn {
-        width: 270px;
+    .section-six .button-form {
         height: 48px;
         margin-top: 25px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .programs-content__item {
-        padding-left: 0px;
-        display: block;
-    }
-
-    .programs-content__dialog {
-        width: calc(100% - 82px);
-    }
-    .info-list li:after {
-        width: 11px;
-        height: 11px;
-    }
-    .info-list li {
-        padding-left: 18px;
     }
 }
 
