@@ -278,7 +278,7 @@ include './includes/data.php';
     <div id="ourteam-section" class="ourteam">
         <div class="section-bg _ourteam" style="background-image: url('<?= get_image('ourteam-bg.png') ?>')"></div>
         <div class="container ourteam-container">
-            <div class="cont-subtitle ourteam__sub-title semibold">
+            <div class="section-overline ourteam__sub-title">
                 Найдем подход к любому ребенку
             </div>
             <h2 class="h2 ourteam__title">
@@ -340,7 +340,7 @@ include './includes/data.php';
 
     <div class="advantages">
         <div class="container">
-            <div class="cont-subtitle semibold">
+            <div class="section-overline">
                 Эффективность нашего обучения подтверждена отзывами и наградами
             </div>
 

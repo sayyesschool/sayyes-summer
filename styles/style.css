@@ -130,7 +130,23 @@ html {
     }
 }
 
-/* Section Background */
+/** Section **/
+
+.section-title {
+
+}
+
+.section-subtitle {
+
+}
+
+.section-overline {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
 .section-bg {
     overflow: hidden;
     background-position: center 0;
@@ -166,6 +182,11 @@ html {
 }
 
 @media (max-width: 1199px) {
+    .section-overline {
+        font-size: 16px;
+        margin-bottom: 9px;
+    }
+
     .section-bg {
         background-size: 100% auto;
         background-position: center 80px;
@@ -173,6 +194,10 @@ html {
 }
 
 @media (max-width: 700px) {
+    .section-overline {
+        font-size: 14px;
+    }
+
     .section-bg {
         background-image: none !important;
     }
@@ -1179,6 +1204,10 @@ html {
         margin-bottom: 36px;
     }
 
+    .section-six .section-content {
+        padding-left: 0;
+    }
+
     .section-six .section-title {
         margin-bottom: 49px;
     }
@@ -1189,7 +1218,7 @@ html {
 
     .section-six .section-content__right {
         max-width: 560px;
-        padding-top: 0;
+        padding: 0;
     }
 
     .section-six .section-content h3 {
@@ -1201,6 +1230,7 @@ html {
         height: 48px;
         margin-top: 36px;
         font-size: 14px;
+        padding: 0 24px;
     }
 }
 
