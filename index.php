@@ -137,7 +137,7 @@ include './includes/data.php';
                     <img src="<?= get_image('gift.png') ?>" <?= role_image() ?> alt="">
                 </div>
 
-                <p style="form-offer">Запишитесь на пробный урок и получите ДВЕ НЕДЕЛИ ОБУЧЕНИЯ в подарок!</p>
+                <p class="form-offer">Запишитесь на пробный урок и получите ДВЕ НЕДЕЛИ ОБУЧЕНИЯ в подарок!</p>
 
                 <div class="form-main-row">
                     <div class="form-main-col _has_input">
