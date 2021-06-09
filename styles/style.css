@@ -1,15 +1,18 @@
+* {
+    outline: none;
+}
+
 *,
 :after,
 :before {
     box-sizing: border-box;
 }
+
 :root {
     --color-yellow: #ffe947;
     --color-violet: #5a1294;
 }
-* {
-    outline: none;
-}
+
 ::placeholder {
     color: inherit;
 }
@@ -334,7 +337,7 @@ html {
     position: absolute;
     right: -221px;
     bottom: 144px;
-    width: 640px;
+    width: 600px;
 }
 @media (max-width: 1199px) {
     .header-main {
@@ -574,7 +577,7 @@ html {
 .form-main .cat-dialog {
     position: absolute;
     top: 124px;
-    right: 56px;
+    right: 40px;
 }
 .form-main .cat-dialog img {
     width: 240px;
@@ -1130,10 +1133,11 @@ html {
 }
 
 .programs-content__left {
-    width: 300px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 4rem;
 }
 
 .programs-content__right {
@@ -1144,7 +1148,11 @@ html {
 .programs-content__title {
     font-size: 24px;
     color: var(--color-violet);
-    margin-bottom: 17px;
+    margin-bottom: .5rem;
+}
+
+.programs-content__text {
+    
 }
 
 .info-list {
@@ -1172,7 +1180,8 @@ html {
 }
 
 .programs-content__btn {
-    width: 340px;
+    display: inline-block;
+    width: auto;
     height: 60px;
     justify-content: center;
     color: var(--color-dark);
@@ -1180,12 +1189,8 @@ html {
     margin-top: 64px;
 }
 
-.programs-content__dialog {
-    width: 184px;
-}
-
 .programs-content__img {
-    margin-bottom: 33px;
+
 }
 
 @media (max-width: 1199px) {
@@ -3520,23 +3525,24 @@ html {
     margin-top: 120px;
     margin-bottom: 150px;
 }
+
 .form-section .cat-education {
     display: block;
     position: absolute;
     right: 0;
     bottom: 84px;
 }
+
 .form-section .form-main {
     position: relative;
 }
-.form-section .cat-dialog {
-    display: none;
-}
+
 @media (max-width: 1199px) {
     .form-section {
         margin-top: 50px;
         margin-bottom: 60px;
     }
+
     .form-section .cat-education {
         width: 155px;
         bottom: 50px;
@@ -3546,10 +3552,10 @@ html {
     .form-section .cat-education {
         display: none;
     }
+
     .form-section .cat-dialog {
         display: flex;
     }
 }
 
 /**********************************************/
-
