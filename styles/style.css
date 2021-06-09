@@ -16,7 +16,7 @@
 ::placeholder {
     color: inherit;
 }
-/********************************/
+
 html {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
@@ -54,32 +54,15 @@ html {
         font-size: 17px;
     }
 }
-/*********************************/
+
+
+/** Reset **/
+
 .r-size {
     max-width: 100%;
     height: auto;
 }
-.text-color-yellow {
-    color: var(--color-yellow);
-}
-.text-color-violet {
-    color: var(--color-violet);
-}
-.light {
-    font-weight: 300;
-}
-.regular {
-    font-weight: 400;
-}
-.semibold {
-    font-weight: 600;
-}
-.bold {
-    font-weight: 700;
-}
-.extrabold {
-    font-weight: 800;
-}
+
 .r-button {
     display: flex;
     align-items: center;
@@ -101,6 +84,32 @@ html {
     margin: 0;
     padding: 0;
 }
+
+.text-color-yellow {
+    color: var(--color-yellow);
+}
+.text-color-violet {
+    color: var(--color-violet);
+}
+.light {
+    font-weight: 300;
+}
+.regular {
+    font-weight: 400;
+}
+.semibold {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+.extrabold {
+    font-weight: 800;
+}
+
+
+/** Theme **/
+
 .button-accent {
     position: relative;
     background-color: #ffe947;
@@ -109,18 +118,22 @@ html {
     white-space: nowrap;
 }
 
-/*******************************/
+
+/** Container **/
+
 .container {
     width: 100%;
     max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
+
 @media (max-width: 1199px) {
     .container {
         max-width: 660px;
     }
 }
+
 @media (max-width: 700px) {
     .container {
         max-width: 450px;
@@ -130,7 +143,12 @@ html {
     }
 }
 
+
 /** Section **/
+
+.section {
+
+}
 
 .section-title {
 
@@ -158,6 +176,7 @@ html {
     top: 0;
     left: 0;
 }
+
 .section-bg:before {
     content: '';
     position: absolute;
@@ -169,6 +188,7 @@ html {
     background-repeat: repeat-x;
     background-size: auto 100px;
 }
+
 .section-bg:after {
     content: '';
     position: absolute;
@@ -201,17 +221,21 @@ html {
     .section-bg {
         background-image: none !important;
     }
+
     .section-bg:before {
         height: 75px;
         background-size: 100% auto;
     }
+
     .section-bg:after {
         height: 75px;
         background-size: 100% auto;
     }
 }
 
-/* Section First */
+
+/** Section First **/
+
 .section-first {
     position: relative;
     background: linear-gradient(103.43deg, #843ac2 19.4%, #904bcc 51.39%, #a944ff 72.25%, #b36cef 93.24%);
@@ -300,51 +324,41 @@ html {
 .section-first .container {
     position: relative;
 }
+
 .hero {
     padding-top: 88px;
     padding-bottom: 170px;
 }
-.hero h1 {
+
+.hero-title {
     width: 840px;
     margin: 0;
     font-weight: 800;
     font-size: 50px;
 }
+
 .hero-subtitle {
+    color: var(--color-yellow);
     font-size: 42px;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 37px;
 }
+
 .hero-description {
     font-weight: 400;
     font-size: 28px;
     line-height: 42px;
     width: 680px;
 }
+
 .hero-description strong {
     color: var(--color-yellow);
     background-color: var(--color-violet);
     padding: 0 8px;
     border-radius: 4px;
 }
-.hero-list {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 36px;
-    width: 680px;
-}
-.hero-list li {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 21px;
-}
-.hero-list img {
-    position: relative;
-    display: inline-block;
-    top: 5px;
-    margin-right: 20px;
-}
+
 .hero-button {
     height: 72px;
     font-size: 22px;
@@ -352,18 +366,21 @@ html {
     margin-top: 60px;
     padding-right: 2rem;
 }
+
 .hero-button-inner {
     display: flex;
     align-items: center;
     margin-left: -52px;
 }
-.hero-male {
+
+.hero-image {
     display: block;
     position: absolute;
     right: -221px;
     bottom: 144px;
     width: 600px;
 }
+
 @media (max-width: 1199px) {
     .header-main {
         align-items: flex-start;
@@ -393,29 +410,25 @@ html {
         padding-top: 18px;
         justify-content: flex-end;
     }
-    .hero h1 {
+
+    .hero-title {
         font-size: 30px;
         width: 500px;
     }
+
     .hero-subtitle {
         font-size: 24px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .hero-description {
         font-size: 23px;
         line-height: 38px;
         width: 420px;
     }
-    .hero-list {
-        font-size: 19px;
-        line-height: 26px;
-        width: 385px;
-    }
-    .hero-list img {
-        width: 20px;
-    }
-    .hero-male {
+    
+    .hero-image {
         width: 500px;
         right: -270px;
     }
@@ -489,19 +502,8 @@ html {
         padding-top: 60px;
         padding-bottom: 100px;
     }
-    .hero-list {
-        font-size: 13px;
-        width: 50%;
-    }
-    .hero-list li {
-        line-height: 1.5;
-    }
-    .hero-list img {
-        width: 13px;
-        margin-right: 14px;
-        top: 8px;
-    }
-    .hero h1 {
+    
+    .hero-title {
         font-size: 20px;
         width: 100%;
     }
@@ -510,11 +512,7 @@ html {
         margin-top: 10px;
         margin-bottom: 44px;
     }
-    .section-first-wave {
-        height: 75px;
-        background-size: 350px 75px;
-        background-position-x: 30px;
-    }
+    
     .hero-button {
         position: relative;
         width: 280px;
@@ -539,15 +537,22 @@ html {
         border-radius: 50%;
         transform: rotate(-47deg);
     }
-    .hero-male {
+    .hero-image {
         width: 205px;
         right: -55px;
         bottom: auto;
         top: auto;
         bottom: 200px;
     }
+
     .section-first-bg {
         display: none;
+    }
+
+    .section-first-wave {
+        height: 75px;
+        background-size: 350px 75px;
+        background-position-x: 30px;
     }
 }
 
@@ -838,11 +843,6 @@ html {
         font-size: 15px;
         margin-right: 10px;
     }
-    
-    .cat-dialog img {
-        height: 114px;
-        width: auto;
-    }
 }
 @media (max-width: 700px) {
     .section-second {
@@ -854,10 +854,6 @@ html {
         position: relative;
         top: 0;
         left: 0;
-    }
-    .cat-dialog img {
-        height: 80px;
-        width: auto;
     }
     .cat-dialog .dialog {
         display: flex;

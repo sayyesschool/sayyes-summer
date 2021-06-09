@@ -93,17 +93,17 @@ include './includes/data.php';
         </div>
         <div class="container container-first">
             <div class="hero">
-                <h1>Индивидуальные онлайн-уроки английского для детей 5-16 лет</h1>
-                <p class="hero-subtitle text-color-yellow">От 550 руб за занятие</p>
-                <p class="hero-description"><strong>Только три дня!</strong> Оставьте заявку на пробный урок онлайн с топовым преподавателем и получите <strong class="text-color-yellow">две&nbsp;недели&nbsp;обучения&nbsp;в&nbsp;подарок!</strong></p>
-                <button class="hero-button r-button button-accent js-button" type="button">
+                <h1 class="hero-title">Индивидуальные онлайн-уроки английского для детей 5-16 лет</h1>
+                <p class="hero-subtitle">От 550 руб за занятие</p>
+                <p class="hero-description"><strong>Только три дня!</strong> Оставьте заявку на пробный урок онлайн с топовым преподавателем и получите <strong>две&nbsp;недели&nbsp;обучения&nbsp;в&nbsp;подарок!</strong></p>
+                <button type="button" class="hero-button r-button button-accent js-button">
                     <span class="hero-button-inner">
                         <img src="<?= get_image('flag-uk.png') ?>" <?= role_image() ?> alt="">
                         <span>Оставить заявку на пробный урок</span>
                     </span>
                 </button>
                 <div class="first-section-mobile-circle"></div>
-                <img class="hero-male" src="<?= get_image('hero.png') ?>" <?= role_image() ?> alt="">
+                <img class="hero-image" src="<?= get_image('hero.png') ?>" <?= role_image() ?> alt="">
             </div>
         </div>
     </div>
