@@ -111,7 +111,8 @@ include './includes/data.php';
     <div class="section-second" style="background-image: url('<?= get_image('second-bg.png') ?>')">
         <div class="container">
             <form class="form-main js-form">
-                <h2 class="h2 form-main-header">Узнайте уровень английского у вашего ребенка на пробном бесплатном уроке, а также</h2>
+                <h2 class="section-title form-main-header">Узнайте уровень английского у вашего ребенка на пробном бесплатном уроке, а также</h2>
+
                 <ul class="r-list">
                     <li>
                         <div>
@@ -137,7 +138,7 @@ include './includes/data.php';
                     <img src="<?= get_image('gift.png') ?>" <?= role_image() ?> alt="">
                 </div>
 
-                <p class="form-offer">Запишитесь на пробный урок и получите ДВЕ НЕДЕЛИ ОБУЧЕНИЯ в подарок!</p>
+                <p class="form-offer">Запишитесь на пробный урок и получите <span class="nbsp">ДВЕ НЕДЕЛИ ОБУЧЕНИЯ</span> в подарок!</p>
 
                 <div class="form-main-row">
                     <div class="form-main-col _has_input">
@@ -158,7 +159,8 @@ include './includes/data.php';
 
     <div class="section-third">
         <div class="container">
-            <h2 class="h2">Почему вам стоит выбрать онлайн летнюю школу для детей и подростков SAY&nbsp;YES?</h2>
+            <h2 class="section-title">Почему вам стоит выбрать онлайн летнюю школу для детей и подростков SAY&nbsp;YES?</h2>
+
             <ul class="r-list cat-cards">
                 <li class="cat-card">
                     <div>
@@ -207,7 +209,8 @@ include './includes/data.php';
         <div class="section-bg _comfort" style="background-image: url('<?= get_image('fourth.png') ?>')"></div>
         <div class="comfort container">
             <div class="comfort-info">
-                <h2 class="h2 text-color-yellow">Занятия онлайн летом — это удобно!</h2>
+                <h2 class="section-title text-color-yellow">Занятия онлайн летом — это удобно!</h2>
+
                 <ul class="r-list semibold">
                     <li>
                         <div>
@@ -222,6 +225,7 @@ include './includes/data.php';
                         <div>Занимайтесь откуда угодно - из дома или с дачи.</div>
                     </li>
                 </ul>
+
                 <div class="comfort-info-footer">
                     <div class="comfort-info-row">
                         <div class="comfort-info-col">
@@ -238,6 +242,7 @@ include './includes/data.php';
                     </div>
                 </div>
             </div>
+
             <div class="comfort-video">
                 <a data-fancybox data-width="640" data-height="360" target="_blank" href="https://youtu.be/T_v4tBsnD4c" class="video-block">
                     <img src="<?= get_youtube_image('T_v4tBsnD4c') ?>" <?= role_image() ?> alt="">
@@ -249,7 +254,7 @@ include './includes/data.php';
 
     <div class="section-six">
         <div class="container">
-            <h2 class="section-title h2">Почему мы рекомендуем практиковать английский летом?</h2>
+            <h2 class="section-title">Почему мы рекомендуем практиковать английский летом?</h2>
 
             <div class="section-content">
                 <div class="section-content__left">
@@ -278,12 +283,14 @@ include './includes/data.php';
     <div id="ourteam-section" class="ourteam">
         <div class="section-bg _ourteam" style="background-image: url('<?= get_image('ourteam-bg.png') ?>')"></div>
         <div class="container ourteam-container">
-            <div class="section-overline ourteam__sub-title">
+            <div class="section-overline">
                 Найдем подход к любому ребенку
             </div>
-            <h2 class="h2 ourteam__title">
+
+            <h2 class="section-title">
                 В нашей команде только внимательные и заботливые преподаватели с опытом обучения детей
             </h2>
+
             <ul class="r-list ourteam__list semibold">
                 <li>
                     Cтрогий кастинг: отбор <br>проходит только 1 из <br>50 преподавателей
@@ -295,6 +302,7 @@ include './includes/data.php';
                     Регулярно собираем отзывы <br>и контролируем результат и качество обучения
                 </li>
             </ul>
+
             <div class="team-slider swiper-container">
                 <div class="swiper-wrapper">
                     <?php
@@ -344,8 +352,8 @@ include './includes/data.php';
                 Эффективность нашего обучения подтверждена отзывами и наградами
             </div>
 
-            <h2 class="h2 advantages__title">
-                Школа SAY&nbsp;YES! существует в оффлайн формате в Москве и 4 раза становилась победителем премии
+            <h2 class="section-title advantages__title">
+                Школа <span class="nbsp">SAY YES!</span> существует в оффлайн формате в Москве и 4 раза становилась победителем премии
                 «Эксперт Года» от SchoolRate
             </h2>
 
@@ -410,7 +418,7 @@ include './includes/data.php';
     </div>
 
     <div class="reviews container">
-        <h2 class="h2 reviews__title">За 7 лет работы обучили 4.5 тысяч студентов и получили более 300 отзывов</h2>
+        <h2 class="section-title reviews__title">За 7 лет работы обучили 4.5 тысяч студентов и получили более 300 отзывов</h2>
         <div class="reviews-slider-wrap">
             <div class="reviews-slider swiper-container">
                 <div class="swiper-wrapper">
@@ -482,7 +490,8 @@ include './includes/data.php';
 
     <div class="about-progress container">
         <div class="about-progress__column">
-            <h2 class="h2 about-progress__title">Единственная онлайн-школа, где снимают отчеты о прогрессе учеников на видео </h2>
+            <h2 class="section-title about-progress__title">Единственная онлайн-школа, где снимают отчеты о прогрессе учеников на видео</h2>
+            
             <div class="about-progress__article">
                 Посмотрите не просто отзывы наших юных студентов, а то, как они говорят на английском
             </div>
@@ -497,7 +506,8 @@ include './includes/data.php';
     <div class="price-section">
         <div class="section-bg _price-section" style="background-image: url('<?= get_image('price-section-bg.png') ?>')"></div>
         <div class="container price-section-container">
-            <h2 class="h2">Стоимость индивидуальных уроков </h2>
+            <h2 class="section-title">Стоимость индивидуальных уроков</h2>
+
             <p class="price-section-subtitle">Вы можете выбрать продолжительность обучения в зависимости от возраста ребенка </p>
             <ul class="r-list">
                 <li class="price-section-card">
@@ -518,7 +528,7 @@ include './includes/data.php';
 
     <div class="about-lessons">
         <div class="container">
-            <h2 class="h2 about-lessons__title">В пакет уроков также включены:</h2>
+            <h2 class="section-title about-lessons__title">В пакет уроков также включены:</h2>
             <ul class="r-list lessons-info">
                 <li>
                     <div class="lessons-info__cont">
@@ -572,11 +582,13 @@ include './includes/data.php';
                 <div class="accordeon-section-img">
                     <img class="r-size" src="<?= get_image('accordeon-image.png') ?>" <?= role_image() ?> alt="">
                 </div>
+
                 <div class="accordeon-section-content">
                     <div class="accordeon-section-header">
-                        <h2 class="h2">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,<br>руководитель школы SAY&nbsp;YES!</span></span></h2>
+                        <h2 class="section-title">На часто задаваемые вопросы отвечает <span><span>Вера Шаталова,<br>руководитель школы SAY&nbsp;YES!</span></span></h2>
                         <img class="r-size accordeon-image-mobile" src="<?= get_image('accordeon-image.png') ?>" <?= role_image() ?> alt="">
                     </div>
+
                     <ul id="accordeon" class="r-list accordeon">
                         <?php foreach ($questions as $item) { ?>
                             <li class="accordeon-card">
@@ -595,8 +607,8 @@ include './includes/data.php';
 
     <div class="form-section">
         <div class="container">
-        <form class="form-main js-form">
-                <h2 class="h2 form-main-header">Узнайте уровень английского у вашего ребенка на пробном бесплатном уроке, а также</h2>
+            <form class="form-main js-form">
+                <h2 class="section-title form-main-header">Узнайте уровень английского у вашего ребенка на пробном бесплатном уроке, а также</h2>
                 <ul class="r-list">
                     <li>
                         <div>
@@ -642,7 +654,8 @@ include './includes/data.php';
     </div>
 
     <div class="contact container">
-        <h2 class="h2 contact__title">Контакты</h2>
+        <h2 class="section-title contact__title">Контакты</h2>
+
         <div class="contact__item">
             <div class="contact__column-left">
                 <ul class="r-list contact__list">
@@ -678,14 +691,16 @@ include './includes/data.php';
         </div>
     </div>
 
-    <div class="footer">
+    <footer class="footer">
         <div class="section-bg"></div>
-        <div class="footer-container container">
+
+        <div class="container">
             <div class="footer__top">
                 <div class="footer__column">
                     <div class="footer__logo">
                         <img class="r-size" src="<?= get_image('logo.svg') ?>" <?= role_image() ?> alt="">
                     </div>
+
                     <ul class="r-list footer__contact">
                         <li>
                             <a target="_blank" class="email-link" href="<?= get_email_for_href($info['email']) ?>"><?= $info['email'] ?></a>
@@ -700,6 +715,7 @@ include './includes/data.php';
                         <?php } ?>
                     </ul>
                 </div>
+
                 <?php foreach ($footer as $menu) { ?>
                     <div class="footer__column">
                         <div class="footer__title semibold"><?= $menu['header'] ?></div>
@@ -711,6 +727,7 @@ include './includes/data.php';
                     </div>
                 <?php } ?>
             </div>
+
             <div class="footer__bottom">
                 <ul class="r-list footer__lisense">
                     <li><a target="_blank" href="#">Лицензия ДО Правительства Москвы №036801</a></li>
@@ -722,7 +739,7 @@ include './includes/data.php';
                 </ul>
             </div>
         </div>
-    </div>
+    </footer>
 
     <div id="js-modal-form" class="modal-container">
         <div class="modal-wrapper">

@@ -35,23 +35,14 @@ html {
     width: 1px;
     overflow: hidden;
 }
-.h2 {
-    color: var(--color-violet);
-    font-weight: 700;
-    font-size: 38px;
-    margin: 0;
+
+.nbsp {
+    white-space: nowrap;
 }
-@media (max-width: 1199px) {
-    .h2 {
-        font-size: 22px;
-    }
-}
+
 @media (max-width: 700px) {
     html {
         font-size: 12px;
-    }
-    .h2 {
-        font-size: 17px;
     }
 }
 
@@ -151,7 +142,10 @@ html {
 }
 
 .section-title {
-
+    color: var(--color-violet);
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0;
 }
 
 .section-subtitle {
@@ -207,6 +201,10 @@ html {
         margin-bottom: 9px;
     }
 
+    .section-title {
+        font-size: 22px;
+    }
+
     .section-bg {
         background-size: 100% auto;
         background-position: center 80px;
@@ -216,6 +214,10 @@ html {
 @media (max-width: 700px) {
     .section-overline {
         font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 17px;
     }
 
     .section-bg {
@@ -411,6 +413,11 @@ html {
         justify-content: flex-end;
     }
 
+    .hero {
+        padding-top: 95px;
+        padding-bottom: 187px;
+    }
+
     .hero-title {
         font-size: 30px;
         width: 500px;
@@ -432,29 +439,27 @@ html {
         width: 500px;
         right: -270px;
     }
-    .section-first-bg {
-        width: 1150px;
-        background-size: contain;
-        transform: translateX(-50%) translateY(17%);
-    }
-    .hero {
-        padding-top: 95px;
-        padding-bottom: 187px;
-    }
-    .hero-list li {
-        margin-bottom: 12px;
-    }
+
     .hero-button {
         width: 354px;
         height: 52px;
         font-size: 17px;
     }
-    .hero-button img {
-        width: 100px;
-    }
+
     .hero-button-inner {
         margin-left: -36px;
     }
+
+    .hero-button img {
+        width: 100px;
+    }
+
+    .section-first-bg {
+        width: 1150px;
+        background-size: contain;
+        transform: translateX(-50%) translateY(17%);
+    }
+    
     /* .section-first-wave {
         height: 90px;
         background-size: 350px 90px;
@@ -464,39 +469,49 @@ html {
     .header-main-container {
         padding: 0 10px;
     }
+
     .header-main {
         position: relative;
         padding-top: 30px;
     }
+
     .header-main-item._has_expert {
         display: none;
     }
+
     .header-main-item._has_logo img {
         height: 44px;
     }
-    .tel-call-tel {
-        font-size: 15px;
-    }
-    .tel-call-call {
-        font-size: 11px;
-        height: 23px;
-    }
-    .tel-call-call img {
-        height: 15px;
-    }
-    .social {
-        justify-content: center;
-        padding-top: 8px;
-    }
-    .social img {
-        height: 19px;
-    }
+
     .header-main-item._has_social {
         position: absolute;
         width: 100%;
         left: 0;
         top: 100%;
     }
+
+    .tel-call-tel {
+        font-size: 15px;
+    }
+
+    .tel-call-call {
+        font-size: 11px;
+        height: 23px;
+    }
+
+    .tel-call-call img {
+        height: 15px;
+    }
+
+    .social {
+        justify-content: center;
+        padding-top: 8px;
+    }
+
+    .social img {
+        height: 19px;
+    }
+
     .hero {
         position: relative;
         padding-top: 60px;
@@ -507,10 +522,17 @@ html {
         font-size: 20px;
         width: 100%;
     }
+
     .hero-subtitle {
         font-size: 16px;
         margin-top: 10px;
         margin-bottom: 44px;
+    }
+
+    .hero-description {
+        font-size: 18px;
+        line-height: 1.8;
+        width: auto;
     }
     
     .hero-button {
@@ -520,29 +542,23 @@ html {
         font-size: 14px;
         font-weight: 600;
         margin: auto;
-        margin-top: 44px;
+        margin-top: 36px;
+        margin-bottom: 172px;
         z-index: 10;
     }
+
     .hero-button img {
         width: 80px;
     }
+
     .first-section-mobile-circle {
-        background: linear-gradient(223.88deg, #8842c5 28.75%, rgba(154, 73, 224, 0) 87.9%);
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        z-index: 9;
-        right: 6px;
-        bottom: 74px;
-        border-radius: 50%;
-        transform: rotate(-47deg);
+        display: none;
     }
+
     .hero-image {
-        width: 205px;
-        right: -55px;
-        bottom: auto;
-        top: auto;
-        bottom: 200px;
+        width: 240px;
+        right: calc(50% - 120px);
+        bottom: 11px;
     }
 
     .section-first-bg {
@@ -730,6 +746,19 @@ html {
     .form-main-col:last-child {
         margin-bottom: 0;
     }
+    .form-main .cat-dialog {
+        position: relative;
+        top: unset;
+        right: unset;
+        margin: auto;
+    }
+
+    .form-main .form-offer {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
     .form-main .button-form {
         height: 46px;
         font-size: 14px;
@@ -1108,6 +1137,7 @@ html {
         width: 100%;
     }
     .comfort-video {
+        max-width: 100%;
         padding-top: 0;
         margin-left: 0;
     }
@@ -1246,7 +1276,7 @@ html {
 
     .section-six .section-content__right {
         width: 100%;
-        padding-left: 0;
+        padding: 0 1rem;
     }
 
     .section-six .section-content h3 {
@@ -1271,14 +1301,17 @@ html {
     color: white;
     padding-top: 150px;
 }
+
 .footer .section-bg:after {
     content: none;
     display: none;
 }
-.footer-container {
+
+.footer .container {
     position: relative;
     z-index: 1;
 }
+
 .footer__logo {
     width: 233px;
     margin-bottom: 37px;
@@ -2800,15 +2833,17 @@ html {
     background: linear-gradient(103.82deg, #833cc0 18.46%, #904bcc 50.69%, #a944ff 71.71%, #b36cef 92.86%);
     overflow: hidden;
 }
-.ourteam-container {
+
+.ourteam .container {
     position: relative;
     z-index: 1;
 }
-.ourteam__sub-title {
+
+.ourteam .section-overline {
     margin-bottom: 14px;
 }
 
-.ourteam__title {
+.ourteam .section-title {
     text-align: center;
     margin-bottom: 60px;
     color: white;
@@ -3082,7 +3117,7 @@ html {
         margin-bottom: 40px;
     }
 
-    .ourteam__title {
+    .ourteam .section-title {
         margin-bottom: 48px;
     }
 
