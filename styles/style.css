@@ -342,6 +342,7 @@ p {
     font-weight: 800;
     font-size: 50px;
     text-align: center;
+    line-height: 1.5;
 }
 
 .hero-title strong {
@@ -356,7 +357,7 @@ p {
     font-size: 42px;
     font-weight: 700;
     text-align: center;
-    margin: auto;
+    margin: 1rem auto 4rem;
     font-weight: bold;
 }
 
@@ -510,7 +511,7 @@ p {
         height: 48px;
         font-size: 14px;
         font-weight: bold;
-        margin: 36px auto 128px;
+        margin: 3rem auto;
     }
 
     .hero-button::after {
