@@ -753,7 +753,7 @@ include './includes/data.php';
                             <input class="inp" type="tel" placeholder="Телефон" name="phone" required>
                         </li>
                         <li>
-                            <button class="form-loan__btn button-accent r-button" type="submit">Записаться на бесплатный урок</button>
+                            <button class="form-loan__btn button-accent r-button" type="submit">Получить 2 недели в подарок</button>
                         </li>
                         <li>
                             <div class="check-privacy">
