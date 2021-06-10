@@ -124,7 +124,7 @@ include './includes/data.php';
                         <div>
                             <div class="circle">2</div>
                         </div>
-                        <span>Получите план изучения языка</span>
+                        <span>Получите план изучения языка на лето</span>
                     </li>
                     <li>
                         <div>
