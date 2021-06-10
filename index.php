@@ -167,8 +167,8 @@ include './includes/data.php';
                         <img src="<?= get_image('cat-3-1.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <div class="cat-card-info">
-                        <div class="cat-card-header">Подготовка к школе</div>
-                        <div class="cat-card-desc">Возможность подготовить ребенка к изучению языка, адаптировать к занятиям в общеобразовательной школе и с ранних лет увлечь его иностранной речью.</div>
+                        <h3 class="cat-card-header">Подготовка к школе</h3>
+                        <p class="cat-card-desc">Возможность подготовить ребенка к изучению языка, адаптировать к занятиям в общеобразовательной школе и с ранних лет увлечь его иностранной речью.</p>
                     </div>
                 </li>
                 <li class="cat-card">
@@ -176,8 +176,8 @@ include './includes/data.php';
                         <img src="<?= get_image('cat-3-2.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <div class="cat-card-info">
-                        <div class="cat-card-header">Разговорный онлайн-клуб с носителями языка </div>
-                        <div class="cat-card-desc">Разговорные клубы с носителями языка БЕСПЛАТНО только этим летом! Ваш ребенок гарантированно преодолеет разговорный барьер к новому учебному году.</div>
+                        <h3 class="cat-card-header">Разговорный онлайн-клуб с носителями языка </h3>
+                        <p class="cat-card-desc">Разговорные клубы с носителями языка БЕСПЛАТНО только этим летом! Ваш ребенок гарантированно преодолеет разговорный барьер к новому учебному году.</p>
                     </div>
                 </li>
                 <li class="cat-card">
@@ -185,8 +185,8 @@ include './includes/data.php';
                         <img src="<?= get_image('cat-3-3.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <div class="cat-card-info">
-                        <div class="cat-card-header">Сертифицированные и талантливые педагоги</div>
-                        <div class="cat-card-desc">Отбираем преподавателей по опыту и дипломам, а также по отзывам родителей учеников.</div>
+                        <h3 class="cat-card-header">Сертифицированные и талантливые педагоги</h3>
+                        <p class="cat-card-desc">Отбираем преподавателей по опыту и дипломам, а также по отзывам родителей учеников.</p>
                         <div class="cat-card-footer">
                             <a target="_blank" class="r-link scroll-to" href="#ourteam-section">Посмотреть видео от преподавателей</a>
                         </div>
@@ -197,8 +197,8 @@ include './includes/data.php';
                         <img src="<?= get_image('cat-3-4.png') ?>" <?= role_image() ?> alt="">
                     </div>
                     <div class="cat-card-info">
-                        <div class="cat-card-header">Нескучная летняя программа</div>
-                        <div class="cat-card-desc">Специальные разработанные летние программы с учебными материалами с героями любимых мультфильмов для самых маленьких, National Geographic и TED Talks для подростков.</div>
+                        <h3 class="cat-card-header">Нескучная летняя программа</h3>
+                        <p class="cat-card-desc">Специальные разработанные летние программы с учебными материалами с героями любимых мультфильмов для самых маленьких, National Geographic и TED Talks для подростков.</p>
                     </div>
                 </li>
             </ul>
@@ -222,7 +222,7 @@ include './includes/data.php';
                         <div>
                             <img width="54" height="54" src="<?= get_image('check-mark.svg') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <div>Занимайтесь откуда угодно - из дома или с дачи.</div>
+                        <div>Занимайтесь откуда угодно - из дома, отпуска или с дачи.</div>
                     </li>
                 </ul>
 
@@ -247,14 +247,14 @@ include './includes/data.php';
                 <a data-fancybox data-width="640" data-height="360" target="_blank" href="https://youtu.be/T_v4tBsnD4c" class="video-block">
                     <img src="<?= get_youtube_image('T_v4tBsnD4c') ?>" <?= role_image() ?> alt="">
                 </a>
-                <button class="r-button button-accent button-form js-button" type="button">Записаться на бесплатный урок</button>
+                <button class="r-button button-accent button-form js-button" type="button">Оставить заявку и получить подарок</button>
             </div>
         </div>
     </div>
 
     <div class="section-six">
         <div class="container">
-            <h2 class="section-title">Почему мы рекомендуем практиковать английский летом?</h2>
+            <h2 class="section-title">Почему мы рекомендуем заниматься английским летом?</h2>
 
             <div class="section-content">
                 <div class="section-content__left">
@@ -353,7 +353,7 @@ include './includes/data.php';
             </div>
 
             <h2 class="section-title advantages__title">
-                Школа <span class="nbsp">SAY YES!</span> существует в оффлайн формате в Москве и 4 раза становилась победителем премии
+                Школа <span class="nbsp">SAY YES!</span> существует 8 лет в оффлайн формате в Москве и 4 раза становилась победителем премии
                 «Эксперт Года» от SchoolRate
             </h2>
 
@@ -412,13 +412,13 @@ include './includes/data.php';
                 </div>
             </div>
             <div class="advantages__bottom">
-                <button type="button" class="r-button button-accent button-form adv-btn js-button">Записаться на бесплатный урок</button>
+                <button type="button" class="r-button button-accent button-form adv-btn js-button">Оставить заявку и получить подарок</button>
             </div>
         </div>
     </div>
 
     <div class="reviews container">
-        <h2 class="section-title reviews__title">За 7 лет работы обучили 4.5 тысяч студентов и получили более 300 отзывов</h2>
+        <h2 class="section-title reviews__title">За 8 лет работы обучили 4.5 тысяч студентов и получили более 300 отзывов</h2>
         <div class="reviews-slider-wrap">
             <div class="reviews-slider swiper-container">
                 <div class="swiper-wrapper">
@@ -678,13 +678,13 @@ include './includes/data.php';
                         <div class="social-screen">
                             <img class="r-size" src="<?= get_image('phone-1.png') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <a target="_blank" class="subscription-social subscription-social_inst instagram-button" href="<?= $info['in'] ?>">Подписаться на Instagram</a>
+                        <a class="subscription-social subscription-social_inst instagram-button" href="<?= $info['in'] ?>" target="_blank">Подписаться на Instagram</a>
                     </li>
                     <li>
                         <div class="social-screen">
                             <img class="r-size" src="<?= get_image('phone-2.png') ?>" <?= role_image() ?> alt="">
                         </div>
-                        <a class="subscription-social subscription-social_facebook facebook-button" href="<?= $info['fb'] ?>">Подписаться в Facebook</a>
+                        <a class="subscription-social subscription-social_facebook facebook-button" href="<?= $info['fb'] ?>" target="_blank">Подписаться в Facebook</a>
                     </li>
                 </ul>
             </div>

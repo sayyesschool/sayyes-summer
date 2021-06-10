@@ -25,6 +25,11 @@ html {
     background-color: #fff;
     color: #180727;
 }
+
+p {
+    line-height: 1.2;
+}
+
 .-visually-hidden {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
@@ -77,25 +82,25 @@ html {
 }
 
 .text-color-yellow {
-    color: var(--color-yellow);
+    color: var(--color-yellow) !important;
 }
 .text-color-violet {
-    color: var(--color-violet);
+    color: var(--color-violet) !important;
 }
 .light {
-    font-weight: 300;
+    font-weight: 300 !important;
 }
 .regular {
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 .semibold {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 .bold {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 .extrabold {
-    font-weight: 800;
+    font-weight: 800 !important;
 }
 
 
@@ -537,7 +542,6 @@ html {
     
     .hero-button {
         position: relative;
-        width: 280px;
         height: 48px;
         font-size: 14px;
         font-weight: 600;
@@ -948,6 +952,8 @@ html {
     color: var(--color-violet);
     font-size: 24px;
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: .5rem;
 }
 .cat-card-desc {
     margin: 10px 0;
