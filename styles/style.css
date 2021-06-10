@@ -47,7 +47,7 @@ p {
 
 @media (max-width: 700px) {
     html {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -542,6 +542,7 @@ p {
     
     .hero-button {
         position: relative;
+        width: auto;
         height: 48px;
         font-size: 14px;
         font-weight: 600;
@@ -972,10 +973,10 @@ p {
         width: inherit;
     }
     .cat-card-header {
-        font-size: 13px;
+        font-size: 15px;
     }
     .cat-card-info {
-        font-size: 13px;
+        font-size: 14px;
         padding-top: 12px;
     }
     .cat-card img {
@@ -996,7 +997,7 @@ p {
         margin-right: 15px;
     }
     .cat-card-header {
-        font-size: 14px;
+        font-size: 15px;
     }
     .cat-card-info {
         font-size: 14px;
@@ -1218,6 +1219,7 @@ p {
 
 .section-six .section-content p {
     margin-bottom: 2rem;
+    font-size: 14px;
 }
 
 .section-six .button-form {
@@ -2480,7 +2482,7 @@ p {
     }
 
     .revfull-slider__dialog {
-        font-size: 12px;
+        font-size: 14px;
         padding: 20px 20px 15px;
         border-radius: 34px;
         margin-bottom: 46px;
@@ -3061,7 +3063,7 @@ p {
     }
 
     .team-slider__article {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 18px;
         margin-bottom: 20px;
     }
