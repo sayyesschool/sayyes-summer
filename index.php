@@ -820,7 +820,7 @@ include './includes/data.php';
                     return false;
                 }
                 var data = {
-                    type: 'Заявка на пробный урок',
+                    type: 'Заявка на пробный урок дети лето',
                     name: name,
                     phone: phone,
                 };
