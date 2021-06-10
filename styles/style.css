@@ -334,36 +334,30 @@ p {
 
 .hero {
     padding-top: 88px;
-    padding-bottom: 170px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
-    width: 840px;
     margin: 0;
     font-weight: 800;
     font-size: 50px;
+    text-align: center;
+}
+
+.hero-title strong {
+    color: var(--color-yellow);
+    background-color: var(--color-violet);
+    padding: 0 8px;
+    border-radius: 4px;
 }
 
 .hero-subtitle {
     color: var(--color-yellow);
     font-size: 42px;
     font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 37px;
-}
-
-.hero-description {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 42px;
-    width: 680px;
-}
-
-.hero-description strong {
-    color: var(--color-yellow);
-    background-color: var(--color-violet);
-    padding: 0 8px;
-    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
 }
 
 .hero-button {
@@ -371,21 +365,24 @@ p {
     font-size: 22px;
     white-space: nowrap;
     margin-top: 60px;
+    padding-left: 5rem;
     padding-right: 2rem;
+}
+
+.hero-button::after {
+    content: '';
+    position: absolute;
+    width: 144px;
+    height: 90px;
+    background-image: url(https://static.sayes.ru/images/kids/flag-uk.png);
+    background-size: contain;
+    left: -52px;
 }
 
 .hero-button-inner {
     display: flex;
     align-items: center;
     margin-left: -52px;
-}
-
-.hero-image {
-    display: block;
-    position: absolute;
-    right: -221px;
-    bottom: 144px;
-    width: 600px;
 }
 
 @media (max-width: 1199px) {
@@ -419,44 +416,23 @@ p {
     }
 
     .hero {
-        padding-top: 95px;
-        padding-bottom: 187px;
+        padding-top: 64px;
+        padding-bottom: 200px;
     }
 
     .hero-title {
         font-size: 30px;
-        width: 500px;
     }
 
     .hero-subtitle {
         font-size: 24px;
         margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .hero-description {
-        font-size: 23px;
-        line-height: 38px;
-        width: 420px;
-    }
-    
-    .hero-image {
-        width: 500px;
-        right: -270px;
+        margin-bottom: 3rem;
     }
 
     .hero-button {
-        width: 354px;
         height: 52px;
         font-size: 17px;
-    }
-
-    .hero-button-inner {
-        margin-left: -36px;
-    }
-
-    .hero-button img {
-        width: 100px;
     }
 
     .section-first-bg {
@@ -524,8 +500,7 @@ p {
     }
     
     .hero-title {
-        font-size: 20px;
-        width: 100%;
+        font-size: 24px;
     }
 
     .hero-subtitle {
@@ -533,23 +508,22 @@ p {
         margin-top: 10px;
         margin-bottom: 44px;
     }
-
-    .hero-description {
-        font-size: 18px;
-        line-height: 1.8;
-        width: auto;
-    }
     
     .hero-button {
         position: relative;
         width: auto;
         height: 48px;
         font-size: 14px;
-        font-weight: 600;
-        margin: auto;
-        margin-top: 36px;
-        margin-bottom: 172px;
-        z-index: 10;
+        font-weight: bold;
+        margin: 36px auto 128px;
+    }
+
+    .hero-button::after {
+        width: 90px;
+        height: 60px;
+        left: -23px;
+        top: -3px;
+    }
     }
 
     .hero-button img {

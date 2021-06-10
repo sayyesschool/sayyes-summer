@@ -93,17 +93,11 @@ include './includes/data.php';
         </div>
         <div class="container container-first">
             <div class="hero">
-                <h1 class="hero-title">Индивидуальные онлайн-уроки английского для детей 5-16 лет</h1>
-                <p class="hero-subtitle">От 550 руб за занятие</p>
-                <p class="hero-description"><strong>Только в июне!</strong> Оставьте заявку на пробный урок онлайн с топовым преподавателем и получите <strong>две&nbsp;недели&nbsp;обучения&nbsp;в&nbsp;подарок!</strong></p>
-                <button type="button" class="hero-button r-button button-accent js-button">
-                    <span class="hero-button-inner">
-                        <img src="<?= get_image('flag-uk.png') ?>" <?= role_image() ?> alt="">
-                        <span>Оставить заявку на пробный урок</span>
-                    </span>
-                </button>
-                <div class="first-section-mobile-circle"></div>
-                <img class="hero-image" src="<?= get_image('hero.png') ?>" <?= role_image() ?> alt="">
+                <h1 class="hero-title">Только в июне! Получите <strong class="nbsp">2 недели</strong> занятий по английскому <strong>в подарок!</strong></h1>
+
+                <p class="hero-subtitle">Онлайн для детей 5-16 лет</p>
+
+                <button type="button" class="hero-button r-button button-accent js-button">Получить 2 недели в подарок</button>
             </div>
         </div>
     </div>
