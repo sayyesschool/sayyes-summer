@@ -95,7 +95,7 @@ include './includes/data.php';
             <div class="hero">
                 <h1 class="hero-title">Только в июне! Получите <strong class="nbsp">2 недели</strong> занятий по английскому <strong>в подарок!</strong></h1>
 
-                <p class="hero-subtitle">Онлайн для детей 5-16 лет</p>
+                <p class="hero-subtitle">Индивидуально онлайн для детей 5-16 лет</p>
 
                 <button type="button" class="hero-button r-button button-accent js-button">Получить 2 недели в подарок</button>
             </div>
