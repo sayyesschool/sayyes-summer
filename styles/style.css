@@ -108,8 +108,8 @@ p {
 
 .button-accent {
     position: relative;
-    background-color: #ffe947;
-    color: #180727;
+    background-color: #c84b41;
+    color: white;
     border-radius: 90px;
     white-space: nowrap;
 }
@@ -369,6 +369,8 @@ p {
     padding-left: 5rem;
     padding-right: 2rem;
     margin: 3rem auto;
+    background-color: #ffe947;
+    color: #180727;
 }
 
 .hero-button::after {
@@ -1006,6 +1008,10 @@ p {
 .comfort li img {
     display: block;
     margin-right: 18px;
+}
+.comfort .button-accent {
+    background-color: #ffe947;
+    color: #180727;
 }
 .comfort-video {
     margin-left: 100px;
