@@ -95,7 +95,7 @@ include './includes/data.php';
             <div class="hero">
                 <h1 class="hero-title">Индивидуальные онлайн-уроки английского для детей 5-16 лет</h1>
                 <p class="hero-subtitle">От 550 руб за занятие</p>
-                <p class="hero-description"><strong>Только в августе!</strong> Оставьте заявку на пробный урок онлайн с топовым преподавателем и получите <strong>две&nbsp;недели&nbsp;обучения&nbsp;в&nbsp;подарок!</strong></p>
+                <p class="hero-description"><strong>Только в сентябре!</strong> Оставьте заявку на пробный урок онлайн с топовым преподавателем и получите <strong>две&nbsp;недели&nbsp;обучения&nbsp;в&nbsp;подарок!</strong></p>
                 <button type="button" class="hero-button r-button button-accent js-button">
                     <span class="hero-button-inner">
                         <img src="<?= get_image('flag-uk.png') ?>" <?= role_image() ?> alt="">
