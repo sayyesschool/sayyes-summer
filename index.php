@@ -93,7 +93,7 @@ include './includes/data.php';
         </div>
         <div class="container container-first">
             <div class="hero">
-                <h1 class="hero-title">Только в августе! Получите <strong class="nbsp">2 недели</strong> занятий по английскому <strong>в подарок!</strong></h1>
+                <h1 class="hero-title">Только в сентябре! Получите <strong class="nbsp">2 недели</strong> занятий по английскому <strong>в подарок!</strong></h1>
 
                 <p class="hero-subtitle">Индивидуально онлайн для детей 5-16 лет</p>
 
