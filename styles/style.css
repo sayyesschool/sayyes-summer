@@ -3507,3 +3507,8 @@ p {
 }
 
 /**********************************************/
+
+.swiper-container {
+    overflow: hidden;
+    position: relative;
+}
