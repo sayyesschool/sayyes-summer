@@ -2882,6 +2882,11 @@ p {
     background: url('https://static.sayes.ru/images/kids/check-mark.svg') no-repeat center;
 }
 
+.team-slider {
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
 .team-slider__top {
     display: flex;
     align-items: flex-start;
@@ -2981,11 +2986,6 @@ p {
 .team-slider .swiper-button-prev {
     left: 50px;
     top: 37%;
-}
-
-.team-slider {
-    padding-left: 130px;
-    padding-right: 130px;
 }
 
 .team-slider__bottom {
@@ -3532,3 +3532,8 @@ p {
 }
 
 /**********************************************/
+
+.swiper-container {
+    overflow: hidden;
+    position: relative;
+}
